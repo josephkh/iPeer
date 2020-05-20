@@ -43,6 +43,10 @@ services:
       - db
   worker: &worker
     <<: *app
+    image: ubcctlt/ipeer-worker
+    build:
+      context: .
+      dockerfile: Dockerfile-worker
     container_name: ipeer_worker
     command: cake/console/cake worker run
     ports:

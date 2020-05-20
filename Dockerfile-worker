@@ -1,0 +1,3 @@
+FROM ubcctlt/ipeer-app
+
+RUN docker-php-ext-install pdo_mysql
