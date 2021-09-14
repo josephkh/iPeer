@@ -1,0 +1,2393 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    color: #333;
+}
+/* html5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Start iPeer CSS */
+
+/* GLOBAL */
+body {
+    font-family: 'Lato', serif; /* provided by Google Web Fonts */
+    background: #eee;
+}
+
+/* Open Sans to enable font-weight: 600 */
+h1,h2,h3,h4,h5,h6,th {
+    font-family: 'Open Sans', serif; /* provided by Google Web Fonts */
+}
+
+p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    overflow: auto;
+}
+
+ul.bulleted-list li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+ul.bulleted-indent-list li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+ul.bulleted-indent-list span.pre-wrap {
+    white-space: pre-wrap;
+}
+ul.bulleted-indent-list span.highlight {
+    font-weight: bold;
+}
+ul.bulleted-indent-list span.red-highlight {
+    color: red;
+    font-weight: bold;
+}
+ul.bulleted-indent-list > ol.dec-indent-list li {
+    margin-left: 50px;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+a.external-link:after {
+    content: url('../img/icons/external-link.png');
+    margin: 0 0 0 5px;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.pagewidth {
+    /* 780px is Wide enough for someone with a 800px device to
+     * view the whole app without horizontal scrolling. I assume
+     * most people's computers are at least 1024x768. However
+     * many smartphones have at least a 800x480 display now,
+     * so we shouldn't use a higher min width.
+     * */
+    min-width: 780px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* Input labels and boxes
+ * This section is only for styles that apply to ALL
+ * inputs. View specific styles should be added to
+ * their appropriate sections, particularly, the
+ * width of the text boxes.
+ * */
+.text {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.text label, .password label, .textarea label, .select label, .checkbox label, .datetime label, .date label, .radio legend, .penaltyLabel, .file label, .defLabel
+{
+    float: left;
+    text-align: right;
+    clear: left;
+    padding: 0 1em 0 0;
+    width: auto;
+    margin-top: 0.4em;
+    min-width: 10em;
+}
+
+input[type="text"], input[type="file"], input[type="password"], textarea, select, button
+{
+    margin: 0.35em 0.35em;
+    border-radius: 3px;
+    border: 1px solid #999;
+    clear: right;
+    padding: 0.3em 0.5em;
+}
+
+.radio input
+{
+    margin: 0.7em 0.5em 0.5em 1em;
+}
+
+.checkbox input
+{
+    margin-top: 0.7em;
+}
+
+.submit input {
+    margin: 0 auto;
+    margin-top: 1em;
+    min-width: 6em;
+    height: 2em;
+    font-weight: 600;
+    display: block;
+}
+
+/* Make buttons a bit easier to press */
+button {
+    padding: 0.3em 0.5em;
+}
+
+a:link, a:visited, a:hover, input[type="submit"], button {
+    color: #1049b1;
+    text-decoration: none;
+}
+
+a:hover, a:hover *, input[type="submit"]:hover, button:hover {
+    color: green !important;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+/* Make semi-centered button clusters, mainly for Save and Cancel buttons */
+.center {
+    width: 12em; /* width chosen to be near the middle of most forms */
+}
+
+.center button {
+    margin-right: 0.5em;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.standardtable {
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    border-collapse: separate;
+    box-shadow: 0 0 25px rgba(85, 85, 85, 0.10);
+    margin: 0.5em 0 0.7em;
+}
+
+.standardtable th {
+    padding: 0.4em 0.1em;
+    background-color: #ececec;
+    font-weight: 600;
+    font-size: 0.95em;
+    border-left: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+}
+
+.standardtable td {
+    border-left: solid 1px #e9e9e9;
+    border-bottom: solid 1px #e9e9e9;
+    padding: 0.4em 0.1em;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.standardtable tr th:first-child,
+.standardtable tr td:first-child {
+    border-left: none;
+}
+.standardtable tr:last-child td {
+    border-bottom: none;
+}
+
+.standardtable #details td {
+    background-color: #f1f1f1;
+}
+
+.standardtable table td {
+    border: none;
+}
+
+.leftalignedtable th, .leftalignedtable td {
+    padding: 0.4em;
+    text-align: left;
+}
+
+.standardtable tr:first-child th:first-child {
+    border-top-left-radius: 4px;
+}
+.standardtable tr:first-child th:last-child {
+    border-top-right-radius: 4px;
+}
+.standardtable tr:last-child td:first-child, .standardtable thead:only-child tr:last-child th:first-child {
+    border-bottom-left-radius: 4px;
+}
+.standardtable tr:last-child td:last-child, .standardtable thead:only-child tr:last-child th:last-child {
+    border-bottom-right-radius: 4px;
+}
+
+.progressbar,
+.progressbar-wrapper {
+    width: 0;
+    height: 2em;
+    background: #0a2a64;
+    transition: all 0.5s;
+}
+
+.progressbar-wrapper {
+    width: 100%;
+    background: #ccc;
+}
+
+/* css for timepicker */
+div.ui-datepicker { font-size: 0.85em; }
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background:none; border: none; margin: 0; padding: 0; }
+
+/* BANNER */
+.banner {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+#bannerLarge {
+    height: 40px;
+    margin: -2em;
+    padding: 2em 1em;
+    background: #eee;
+}
+
+#customLogo {
+    float: right;
+    margin-right: 1em;
+}
+
+#bannerLogoImgLeft {
+    padding-right: 0.5em;
+}
+
+#bannerLogoImgRight {
+    height: 40px;
+}
+
+#ipeerLogo {
+    float: left;
+    margin-left: 1em;
+}
+
+#bannerLogoText {
+    font-size: 1em;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#ipeerI {
+    font-size: 32px;
+}
+
+#ipeerText {
+    font-size: 36px;
+}
+
+a#home, a#home:hover, a#home:active {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+/* NAVIGATION */
+#navigationOuter {
+    float: left;
+    width: 100%;
+    padding: 4px 0 0 1px;
+    margin: 1em 0 1.5em;
+    border: solid 1px #ccc;
+    background: #fff;
+    box-shadow: 0 0 25px rgba(85, 85, 85, 0.28);
+}
+
+.navigation ul {
+    padding: 0.5em 0; /* needed to expand the div, keep a from overflowing the ul */
+    background-color: white;
+}
+
+.navigation li {
+    display: inline;
+    list-style: none;
+    text-align: center;
+}
+
+.navigation a {
+    color: #0a2a64;
+    font-weight: 600;
+    text-align: center;
+    padding: 9px 0.5em;
+    text-decoration: none;
+    background-color: #fff;
+    margin-top: 1px;
+}
+
+.navigation ul li:first-child a {
+    padding-left: 1em;
+}
+
+.navigation #current a,
+.navigation a:hover,
+.navigation a:active {
+    background: none;
+    border-bottom: solid 3px gold;
+}
+
+.navigation .miniLinks {
+    font-family: 'Open Sans', serif;
+    font-size: 0.8em;
+    padding: 7px 0.8em;
+    float: right;
+    border-bottom: solid 3px #fff;
+}
+
+.instructions {
+    border: solid 1px #ccc;
+    padding: 1em 1em 0.5em;
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.28) inset;
+}
+
+/* CONTENT CONTAINER */
+.containerOuter {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 2em;
+    background: white;
+    box-shadow: 0 0 25px rgba(85, 85, 85, 0.28);
+    min-width: 540px;
+}
+
+.message, .error-message {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    clear: left;
+    padding: 0.7em 1.2em;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.good-message {
+    border: 2px solid green;
+}
+
+/* authMessage is only used for cake generated login errors. */
+#flashMessage,
+#authMessage,
+.error-message {
+    color: #990044;
+    border: 1px solid #ca4343;
+    background: #fff0f0;
+    box-shadow: 0 0 25px rgba(144, 73, 73, 0.28);
+    border-radius: 5px;
+}
+
+#flashMessage > *,
+#authMessage > *,
+.error-message > *,
+.success-message > *,
+.good-message > * {
+    text-align: left;
+    font-weight: 400;
+}
+
+#flashMessage > ul,
+#authMessage > ul,
+.error-message > ul,
+.success-message > ul,
+.good-message > ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+#flashMessage > h2:first-child,
+#authMessage > h2:first-child,
+.error-message > h2:first-child,
+.success-message > h2:first-child,
+.good-message > h2:first-child {
+    margin-top: 0.5em;
+}
+
+#flashMessage > p,
+#authMessage > p,
+.error-message > p,
+.success-message > p,
+.good-message > p  {
+    padding-top: 0;
+}
+
+#authMessage.success,
+.success-message,
+.good-message {
+    color: #159900;
+    border: 1px solid #159900;
+    background: #f1fff0;
+    box-shadow: 0 0 25px rgba(73, 144, 74, 0.28);
+    border-radius: 5px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.orangered {
+    color: orangered;
+}
+
+.blue {
+    color: blue;
+}
+
+.breadcrumb {
+    margin: 0 0 2em;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #000;
+    float: left;
+    opacity: 0.5;
+    width: 100%;
+}
+.breadcrumb a {
+    color: #000;
+}
+
+h1.title {
+    margin: 0.5em 0 1em;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #9971ad;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+#bannerLarge + h1.title {
+    margin-top: 2em;
+}
+
+h2 {
+    margin: 1em 0;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+h3 {
+    margin: 1em 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+h4 {
+    margin: 0.5em 0;
+}
+
+i {
+    font-style: italic;
+    /* display: none; */
+}
+
+/* FOOTER */
+#footer {
+    font-size: 0.72em;
+    padding-top: 0.5em;
+    color: #333;
+    text-align: center;
+}
+
+/* DEBUG */
+#debugsection {
+    margin: 2em;
+    font-size: 0.8em;
+}
+
+#debugsection h5 {
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #ccff99;
+}
+
+#debugsection pre {
+    padding: 0.5em;
+}
+
+#debugsection table {
+    width: 100%;
+}
+
+/* LOGIN BOX */
+.login {
+    width: 20em;
+    margin: 1em auto;
+    border: 1px solid crimson;
+}
+
+.login h4 {
+    background-color: crimson;
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+    font-weight: 600;
+}
+
+.login .text label, .login .password label {
+    width: 20%;
+}
+
+.login .text input, .login .password input {
+    width: 60%;
+}
+
+.login form {
+    padding: 1em;
+    padding-right: 0;
+}
+
+/* Datepicker */
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+    display: none;
+}
+
+/* HOME */
+/* for admins and instructors */
+.course {
+    margin: 1.5em auto;
+    background-color: #f9f9f9;
+    padding-bottom: 1em;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(85, 85, 85, 0.10);
+    padding-left: 1px;
+    padding-top: 2px;
+}
+
+.course h3 {
+    background-color: #ececec;
+    padding: 0.5em;
+    margin: 0;
+}
+
+.course a:link h3, .course a:visited h3 {
+    color: black;
+}
+
+.course h4 {
+    padding: 0.5em;
+}
+
+.course h4 ul {
+    display: inline;
+}
+
+.course h4 li {
+    display: inline;
+    padding-right: 1em;
+}
+
+.course table {
+    margin: 0.5em;
+    width: 100%;
+}
+
+.course th {
+    width: 33%;
+    text-align: left;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.course td {
+    padding: 0.5em;
+}
+
+.course img {
+    padding-right: 0.5em;
+}
+
+.toggle {
+    font-size: 0.8em;
+}
+
+#short_help h5 {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+#short_help {
+    font-size: 0.8em;
+}
+
+#short_help ol {
+    list-style-type: decimal;
+    margin-left: 0;
+    padding: 1em 0 0.5em 1em;
+}
+
+#short_help li {
+    padding-bottom: 0.5em;
+}
+
+/* student home */
+
+#StudentHome .eventSummary {
+    text-align: center;
+    padding: 0.3em;
+    margin-bottom: 0.1em;
+}
+
+#StudentHome .overdue {
+    background: lightcoral;
+}
+
+#StudentHome .pending {
+    background: lightsalmon;
+}
+
+#StudentHome .alldone {
+    background: lightgreen;
+}
+
+/* dual instructor/student home */
+
+.instructorView {
+    margin-bottom: 4em;
+}
+
+/* Emailtemplate Form settings */
+
+/* view */
+
+#EmailtemplateViewForm .text input {
+    width: 21em;
+}
+
+#EmailtemplateViewForm .textarea textarea {
+    width: 21.5em;
+}
+
+#EmailtemplateViewForm .radio input {
+    margin: 0.65em;
+}
+
+#EmailtemplateViewForm .submit {
+    width: 10em;
+    margin: 1em auto;
+}
+
+#EmailtemplateViewForm fieldset {
+    clear: both;
+}
+
+/* add and edit */
+
+#EmailtemplateAddForm .radio fieldset {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    clear: both;
+}
+
+/* makes the text boxes bigger */
+#EmailtemplateAddForm .text input {
+    width: 21em;
+}
+
+
+#EmailtemplateAddForm .textarea textarea {
+    width: 21.5em;
+}
+
+#EmailtemplateEditForm fieldset {
+    clear: both;
+}
+
+/* Emailer write */
+
+#EmailerWrite td {
+    text-align: left;
+}
+
+#emailContent {
+    text-align: left;
+    padding: 1em;
+}
+
+#emailContent ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+/* edit profile - Oauth section */
+
+.oauth {
+    margin: 0.5em;
+}
+
+.oauth p{
+    padding-bottom: 0em;
+}
+
+.oauth label, .oauth img,
+.oauth #add{
+    display: inline-block;
+}
+
+.oauth #key {
+    width: 14em;
+}
+
+.oauth #secret {
+    margin-left: 2em;
+    width: 20em;
+}
+
+.oauth select {
+    margin-left: 3.5em;
+}
+
+.oauth #delete {
+    margin-left: 2em;
+}
+
+.oauth #add, .oauth #comment{
+    margin-bottom: 1em;
+}
+
+/* oauthClients add form */
+
+.oauthClients form label {
+    margin-top: 0.25em;
+}
+
+/* oauthTokens add form */
+
+.oauthTokens form label {
+    margin-top: 0.25em;
+}
+
+
+/* POPUP */
+
+
+#pop_container {
+    width: 95%;
+    margin: 0.5em auto;
+}
+
+#pop_container table {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+#pop_container h1 {
+    text-align: center;
+}
+
+#bannerSmall {
+    background-image: url(small_header_back.gif);
+    background-repeat: repeat-x;
+}
+
+#bannerSmall img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* COURSE */
+
+.course_actions {
+    margin-bottom: 0.5em;
+}
+
+.course_submenu {
+    margin: 0.6em 0;
+    width: 48.5%;
+    vertical-align: top;
+    display: inline-block;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding-bottom: 1em;
+    box-shadow: 0 0 25px rgba(85, 85, 85, 0.10);
+}
+
+.course_actions .course_submenu:nth-child(even) {
+    margin-left: 2.1%;
+}
+
+@media screen and (max-width: 865px) {
+    .course_actions .course_submenu {
+        margin-left: 0 !important;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 865px) {
+    .course_submenu-TeamMaker + .course_submenu-Canvas {
+        float: right;
+        margin-top: -118px;
+        margin-right: 2px;
+        background: #fff;
+    }
+}
+
+.course_submenu h3 {
+    background-color: #ececec;
+    color: #0A2C64;
+    font-weight: 600;
+    padding: 0.5em 0.8em;
+    margin: 0;
+}
+
+.course_submenu ul {
+    background-color: white;
+}
+
+.course_submenu li {
+    padding-left: 2.5em;
+    margin-top: 1em;
+    background-image: url("../img/layout/yellow_arrow.gif");
+    background-repeat: no-repeat;
+    background-position: 0.9em;
+}
+
+#CourseHome .invalid {
+    text-align: center;
+    padding: 0.3em;
+    margin-bottom: 0.1em;
+    font-weight: bold;
+    background-color: salmon;
+}
+
+/* courses/move courses/import */
+
+#UserMove select,
+#CourseImport select {
+    width: 30em;
+}
+
+#UserMove ul li,
+#CourseImport ul li,
+#export-report ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+#CourseImport #example {
+    background-color: white;
+    border:1px solid black;
+    padding: 0.5em;
+    margin-left: 1em;
+    display: inline-block;
+    line-height: 150%;
+}
+
+/* USERS */
+
+/* users/add users/edit */
+#UserForm #usernameErr {
+    margin-left: 14em;
+}
+
+#UserForm select {
+    width: 15em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    background: transparent;
+    font-size: 1em;
+}
+
+#UserForm select#FacultyFaculty {
+    height: 10em;
+    width: 23em;
+}
+
+#UserForm .select .checkbox {
+    margin-left: 14em;
+}
+
+#UserForm .select .checkbox label {
+    float: none;
+    width: 30em;
+    text-align: left;
+}
+
+#UserForm .select .checkbox input {
+    margin-right: 0.5em;
+}
+
+#UserForm .text input {
+    width: 21em;
+}
+
+#UserForm #email {
+    margin: 0 0.5em 1em 16em;
+    float: none;
+}
+
+#UserForm .checkbox {
+    vertical-align: middle;
+}
+
+#UserForm .submit input{
+    width: 12em;
+    margin: 2em;
+}
+
+#UserForm .submit {
+    clear: both;
+    display: inline-block;
+}
+
+#UserForm .buttons {
+    margin-left: 14em;
+}
+
+/* users/goToClassList/ */
+
+.userActionPanel {
+    width: 100%;
+    background-color: wheat;
+    padding: 0.2em 0;
+    margin: 0;
+}
+.userActionPanel ul {
+    text-align: center;
+    width: 100%;
+}
+.userActionPanel li {
+    padding: 0 1em;
+    text-align: center;
+    display: inline;
+    list-style: none;
+}
+
+/* users/view */
+
+.userViewTable {
+    width: 100%;
+}
+
+/* users/import */
+
+#UserImport ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+#UserImport .file input {
+    width: 25em;
+}
+
+#UserImport .checkbox input {
+    margin-top: 0.85em;
+}
+
+/* users/merge */
+
+#UserMergeForm ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+#UserMergeForm h3, #UserMergeForm h3 {
+    text-align: center;
+}
+
+#UserMergeForm div#form {
+    overflow: hidden;
+}
+
+#UserMergeForm label{
+    width: auto;
+}
+
+#UserMergeForm div.input.select {
+    margin-top: 2em;
+}
+
+#UserMergeForm .account {
+    width: 30em;
+}
+
+#UserMergeForm div#secondary, #UserMergeForm div#primary{
+    float: right;
+    width: 50%;
+}
+
+#UserMergeForm .search, #UserMergeForm .searchValue {
+    display: inline;
+}
+
+#UserMergeForm .searchValue {
+    width: 25em;
+}
+
+#UserMergeForm #primaryData, #UserMergeForm #secondaryData {
+    padding: 1em;
+}
+
+#UserMergeForm td {
+    width: 50%;
+}
+
+#UserMergeForm div.submit {
+    clear: both;
+}
+
+/* Courses */
+
+/* courses/add, courses/edit */
+
+#CourseEditForm .select #CourseInstructors, #CourseEditForm .select #CourseTutors, #CourseEditForm .select #CanvasCourses {
+    width: 20em;
+}
+
+#CourseEditForm .input input{
+    margin-right: 10em;
+    position: relative;
+    width: 30em;
+}
+
+#CourseEditForm .center {
+    text-align: center;
+}
+
+#CourseEditForm #instructors .text input, #CourseEditForm #tutors .text input {
+    width: 20em;
+    margin-bottom: 0.75em;
+    margin-right: 1em;
+}
+
+#CourseEditForm #instructors a, #CourseEditForm #tutors a, #CourseEditForm #canvas_courses a  {
+    padding: 0.5em;
+}
+
+/* PAGES/ADMIN */
+
+.adminpage ul {
+    margin: 1em;
+}
+.adminpage li {
+    list-style: circle inside;
+    margin: 0.5em;
+}
+
+/* EVENTS */
+
+/* events/add */
+
+.penaltyInput {
+    display: block;
+}
+
+.penaltyInLabel {
+    margin-left: 0.5em;
+    margin-right: 1em;
+}
+
+.penaltyInput input {
+    width: 2em;
+}
+
+.addPenaltyButton {
+    display: block;
+    margin-left: 19em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 10em;
+}
+
+/* events/edit */
+
+#Events .help-text {
+    margin-left: 24em;
+}
+
+#Events #titleWarning, #Events .selectAll {
+    margin-left: 19em;
+}
+
+#Events fieldset, #Events .submit {
+    clear: both;
+}
+
+#Events .select {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#Events .text label, #Events .password label,
+#Events .textarea label, #Events .select label,
+#Events .datetime label, #Events .radio legend,
+#Events .penaltyLabel{
+    width: 18em;
+}
+
+#Events .courseLabel{
+    display: inline-block;
+    text-align: right;
+    width: 18em;
+    margin-bottom: 0.5em;
+}
+
+#Events .course {
+    margin-left: 1em;
+    background-color: white;
+}
+
+#Events .radio legend {
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+}
+
+#Events form div.email-help-text, #Events form div.email-temp-help-text {
+    margin: 0.5em 0 1em 24em;
+    font-size: 0.8em;
+    width: 35em;
+    color: gray;
+}
+
+/* Survey Results */
+
+#SurveyResults ol {
+    list-style-type: lower-alpha;
+    margin-left: 8.5em;
+}
+
+#SurveyResults ul {
+    list-style-type: circle;
+    margin-left: 8em;
+}
+
+#SurveyResults p {
+    margin-left: 7em;
+}
+
+#SurveyResults pre {
+    margin-left: 7em;
+}
+
+#SurveyResults h3 {
+    margin-left: 3.5em;
+}
+
+#SurveyResults .noanswer {
+    font-style: italic;
+}
+
+/* SysParameters */
+#sysParam .text label,
+#sysParam .password label,
+#sysParam .select label {
+    width: 18em;
+}
+
+#sysParam .text input {
+    width: 20em;
+}
+
+/* Evaluations Export */
+
+#exportEval .text label, #exportEval .select label,
+#exportEval .checkbox label {
+    width: 18em;
+}
+
+#exportEval .text input {
+    width: 20em;
+}
+
+#exportEval ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+#exportEval div.help-text {
+    margin-left: 24em;
+}
+
+/* SurveyGroups Export */
+
+#exportSurveyGroup .text label, #exportSurveyGroup .select label {
+    width: 18em;
+}
+
+#exportSurveyGroup .text input {
+    width: 20em;
+}
+
+#exportSurveyGroup ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+/* survey summary bar graph*/
+.graph {
+    background-color: #EEFAED;
+    width: 20em;
+    border: #ccc 1px solid;
+}
+
+.graph .bar {
+    background-color: #4dc14f;
+    border-right: #538e02 1px solid;
+    height: 1em;
+}
+
+/* ajax pagination */
+
+.ajax_paginate {
+	border: 1px solid #aaa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px 5px;
+	/*margin: 0 3px;*/
+	cursor: pointer;
+	color: #333 !important;
+	background-color: #DDD;
+}
+
+.selected_number{
+	border: 1px solid #aaa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px 5px;
+	/*margin: 0 3px;*/
+	cursor: pointer;
+	color: #333 !important;
+    background-color: #99B3FF;
+}
+
+.ajax_paginate:hover {
+    background-color: #ccc;
+    text-decoration: none;
+}
+
+#ajaxListDiv {
+    font-size: 0.9em;
+}
+
+#ajaxListDiv .timestamp {
+    font-size: 0.8em;
+    text-align: left;
+    width: 33%;
+}
+
+#ajaxListDiv .total-result {
+    text-align: center;
+    width: 33%;
+    font-weight: 600;
+    font-size: 100%
+}
+
+/* EVALTOOLS */
+
+.evaltoolsnav {
+    margin-top: 1em;
+}
+
+.evaltoolsnav ul {
+    padding-bottom: 1em;
+}
+
+.evaltoolsnav li {
+    display: inline;
+    list-style: none;
+    border-left: 1px solid white;
+}
+
+.evaltoolsnav a {
+    font-weight: 600;
+    font-size: 0.9em;
+    background-color: #eee;
+    text-decoration: none;
+    padding: 0.5em 1em 0.3em;
+    border-bottom: solid 4px #eee;
+}
+
+.evaltoolsnav a:hover {
+    border-color: gold;
+}
+
+.evaltoolsnav .current a {
+    border-color: gold;
+}
+
+.evaltool-section-header h2{
+    float: left;
+}
+
+.evaltoolsadd {
+    float: right;
+    padding: 1.7em 0 0 0;
+}
+
+.evaltoolsadd a {
+    margin-right: 1em;
+    font-size: 0.9em;
+}
+
+/* SURVEYS */
+
+/* surveys/view */
+.surveyquestions .prompt {
+    margin: 2em 1em 1em 1em;
+}
+
+.surveyquestions  .checkbox input, .surveyquestions input[type="radio"]  {
+    margin: 0.5em;
+    margin-left: 3em;
+}
+
+.surveyquestions .checkbox label {
+    padding: 0 0 0 0.5em;
+    float: none;
+}
+
+.surveyquestions input[type="text"] {
+    width: 40em;
+    margin-left: 3em;
+}
+
+.surveyquestions textarea {
+    width: 40em;
+    height: 10em;
+    margin-left: 3em;
+}
+
+.surveyquestions .checkbox label { /* checkboxes look weird with left floating labels */
+    float: none;
+}
+
+.surveyquestions #description {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
+/* surveys/addQuestion */
+.SurveyAddQuestion #QuestionPrompt {
+    width: 35em;
+}
+
+.SurveyAddQuestion .center {
+    width: 30em;
+    display: block;
+    margin: 1em auto;
+}
+
+.SurveyAddQuestion input[type="submit"] {
+    padding: 0.3em 0.5em;
+}
+
+.SurveyAddQuestion .center input {
+    margin-right: 1em;
+}
+
+.SurveyAddQuestion div#responseInput {
+    margin-bottom: 1.5em;
+}
+
+.SurveyAddQuestion #responseInput a {
+    padding: 0.5em;
+    display: inline-block;
+}
+
+.SurveyAddQuestion #responseInput .input {
+    margin-left: 14em;
+}
+
+.SurveyAddQuestion #responseInput .input input {
+    width: 15em;
+}
+
+/* surveys/questionssummary */
+
+.surveyquestions .MoveQuestion {
+    display: inline;
+    float: right;
+}
+
+.surveyquestions .Operators {
+    margin: 1em;
+    font-size: 0.9em;
+}
+
+.surveyquestions .Operators a {
+    padding-left: 20px;
+    padding-right: 1em;
+}
+
+.surveyquestions .top-button {
+    background:url('../img/icons/top.gif') center left no-repeat;
+    padding: 0 0.5em 0 1.5em;
+    white-space:nowrap;
+}
+.surveyquestions .up-button {
+    background:url('../img/icons/up.gif') center left no-repeat;
+    padding: 0 0.5em 0 1.5em;
+    white-space:nowrap;
+}
+
+.surveyquestions .down-button {
+    background:url('../img/icons/down.gif') center left no-repeat;
+    padding: 0 0.5em 0 1.5em;
+    white-space:nowrap;
+}
+
+.surveyquestions .bottom-button {
+    background:url('../img/icons/bottom.gif') center left no-repeat;
+    padding: 0 0.5em 0 1.5em;
+    white-space:nowrap;
+}
+
+/* GROUPS */
+
+/* groups/import */
+
+#groupsimport ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+#groupsimport .checkbox input {
+    margin-top: 0.85em;
+}
+
+#groupsimport #example {
+    background-color: white;
+    border:1px solid black;
+    padding: 0.5em;
+    margin-left: 1em;
+    display: inline-block;
+    line-height: 100%;
+}
+
+#groupsimport #title {
+    font-size: 150%;
+}
+
+#groupsimport #title, #groupsimport #button_text {
+    text-align: center;
+}
+
+#syncCanvasWrapper #syncFormType {
+    margin: 0 auto;
+    float: none;
+    width: 14em;
+}
+
+#syncCanvasTable {
+    width: 100%;
+}
+
+#syncCanvasTable.simplified > thead a,
+#syncCanvasTable.simplified > tbody table > thead input[type="checkbox"],
+/*
+#syncCanvasTable.simplified > tbody table > thead .expanded-after:after,
+#syncCanvasTable.simplified > tbody table > tbody,
+*/
+#syncCanvasTable.simplified table > tbody input[type="checkbox"],
+#syncCanvasTable.simplified > tfoot > tr:not(.sync-button-row),
+#syncCanvasTable:not(.simplified) > tfoot > tr.sync-button-row {
+    display: none !important;
+}
+
+#syncCanvasTable > thead tr th:first-child,
+#syncCanvasTable > thead tr th:last-child {
+    width: 48%;
+}
+
+#syncCanvasTable > thead th a,
+#syncCanvasTable .standardtable td a {
+    font-size: 0.8em;
+}
+
+#syncCanvasTable > thead th a.selectAll,
+#syncCanvasTable > thead th a.selectNone {
+    float: left;
+    margin-right: 1em;
+}
+
+#syncCanvasTable > thead th a.expandAll,
+#syncCanvasTable > thead th a.collapseAll {
+    float: right;
+    margin-left: 1em;
+}
+
+#syncCanvasTable > * > tr td {
+    vertical-align: top;
+    text-align: center;
+}
+
+#syncCanvasTable > tbody tr td .disabled {
+    color: #999;
+}
+
+#syncCanvasTable .non-existent-group {
+    border: dashed 2px #ccc;
+    min-height: 20px;
+    margin-top: 8px;
+    border-radius: 5px;
+    color: #999;
+    margin: 0.55em 0 0.7em;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 0.8em;
+    background: #f6f6f6;
+}
+
+#syncCanvasForm .syncIcon {
+    font-size: 2em;
+    line-height: 0.5em;
+    float: right;
+}
+
+#syncCanvasTable > tbody tr td.syncIcon {
+    text-align: center;
+    line-height: 1.2em;
+    float: none;
+}
+
+#syncCanvasTable .standardtable .showLessMembers,
+#syncCanvasTable .standardtable .showMoreMembers {
+    display: none !important;
+}
+#syncCanvasTable .standardtable tr.showMoreLessMembers td {
+    background: #ddd;
+    padding: 0.1em 0.1em 0.2em;
+}
+
+#syncCanvasTable input[type="checkbox"] {
+    float: left;
+    margin: 0 -1em 0 1em;
+}
+
+#syncCanvasTable tfoot input[type="checkbox"] {
+    margin: 9px 8px 0 1em;
+}
+
+#syncCanvasTable tfoot .checkbox {
+    margin: 1em auto;
+    float: none;
+    max-width: 18.5em;
+}
+#syncCanvasTable tfoot .checkbox label {
+    clear: none;
+    width: 15em;
+    text-align: left;
+}
+
+#syncCanvasTable .submit-buttons-row td,
+#syncCanvasTable .sync-button-row td {
+    padding-top: 1em;
+}
+
+#syncCanvasTable .check-before:before {
+    width: 14px;
+    height: 14px;
+    display: block;
+    float: left;
+    margin: 0 -27px 0 13px;
+    font-style: normal;
+    content: ' \2714';
+}
+
+#syncCanvasTable .collapsed-after:after {
+    width: 14px;
+    height: 14px;
+    display: block;
+    float: right;
+    margin: 0 13px 0 -27px ;
+    font-style: normal;
+    content: ' \25B8';
+}
+
+#syncCanvasTable .expanded-after:after {
+    width: 14px;
+    height: 14px;
+    display: block;
+    float: right;
+    margin: 0 13px 0 -27px ;
+    font-style: normal;
+    content: ' \25BE';
+}
+
+.highlight-green {
+    background: #a0ffa0 !important;
+    color: green !important;
+    border-bottom-color: #8bea8a !important;
+}
+th.highlight-green {
+    background: #3ca13c !important;
+    color: rgb(0, 66, 0) !important;
+    border-color: #1e7d1e;
+}
+
+/* MIXEVALS */
+
+/* mixevals results */
+
+#mixeval_result ul li {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 0.5em;
+    margin-left: 2.5em;
+}
+
+#mixeval_result h3, #mixeval_result .desc {
+    margin-left: 1em;
+}
+
+#mixeval_result .grade {
+    margin-left: 5em;
+}
+
+#mixeval_result .name, #mixeval_result .blue {
+    margin-right: 1em;
+    display: inline-block;
+    width: 10em;
+    font-weight: bold;
+}
+
+#mixeval_result {
+    text-align: left;
+}
+
+#mixeval_result .releaseBtns {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* mixevals/view */
+
+.MixevalView dt {
+    width: 13em;
+    padding-bottom: 0.5em;
+    text-align: right;
+    float: left;
+}
+
+.MixevalView dd {
+    padding-bottom: 0.5em;
+    display: block;
+    margin-left: 14em;
+}
+
+.MixevalView span.help, .MixevalForm span.help {
+    color: chocolate;
+    font-size: 0.9em;
+}
+
+/* Need to change the font to match how they look in headings (the required
+ * mark are in h3 tags in the question prompts) */
+.MixevalView span.required, .MixevalForm span.required {
+    font-weight: bold;
+    font-family: 'Open Sans', serif;
+}
+
+.MixevalView span.required, .MixevalQuestion span.required,
+.MixevalForm span.required {
+    font-size: 1.5em;
+}
+
+.MixevalView p.note, .MixevalForm p.note {
+    display: inline-block;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.MixevalView p.marks, .MixevalForm p.marks {
+    float: right;
+    text-align: right;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 1.5em;
+    font-family: 'Open Sans', serif; /* for visual distinctiveness */
+}
+
+.MixevalForm table {
+    width: 100%;
+}
+
+.MixevalForm ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+.MixevalForm #description {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
+.MixevalForm #penalty {
+    border: 1px solid red;
+    color: darkred;
+    margin-left: 3em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    width: 75%;
+}
+
+div.MixevalQuestion {
+    margin: 0 1em;
+}
+
+.MixevalQuestion p.help {
+    padding-top: 0;
+}
+
+.MixevalQuestion h3 {
+    margin-top: 2em;
+}
+
+.MixevalQuestion table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.MixevalQuestion td {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.MixevalQuestion input[type="text"], .MixevalQuestion textarea {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.MixevalQuestion textarea {
+    height: 8em;
+}
+
+/* mixevals/add */
+
+.MixevalAdd .questions div a.removeQ, .MixevalAdd .questions div a.upQ,
+.MixevalAdd .questions div a.downQ {
+    font-size: 1.2em;
+    padding: 0.3em;
+    margin: 0;
+}
+
+.MixevalAdd .questions div a.removeQ {
+    color: crimson;
+}
+
+.MixevalAdd .questions div a.upQ {
+    color: orangered;
+}
+
+.MixevalAdd .questions div a.downQ {
+    margin-right: 1em;
+    color: dodgerblue;
+}
+
+.MixevalAdd .questions div a.removeQ:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.MixevalAdd .questions div a.removeQ:hover, .MixevalAdd .questions div.remove {
+    background-color: crimson;
+}
+
+.MixevalAdd .questions div a.upQ:hover {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+}
+
+.MixevalAdd .questions div a.downQ:hover {
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+}
+
+div.MixevalMakeQuestion {
+    padding: 0.5em 0;
+}
+
+.MixevalAdd input[type='text'], .MixevalMakeQuestion
+input[type='text'], .MixevalMakeQuestion textarea {
+    width: 30em;
+}
+
+.MixevalMakeQuestion div.DescsDiv input[type="text"] {
+    width: 10em;
+}
+
+.DescsDiv {
+    margin-top: 0.2em;
+    margin-left: 14em;
+}
+
+.MixevalQuestionDesc {
+    padding-bottom: 0.1em;
+}
+
+/* rubrics view */
+
+#rubricPreview, #simplePreview {
+    cursor: pointer;
+}
+
+/* permissions editor */
+/* access/edit */
+#perm_editor label {
+    width: auto;
+}
+
+/* TO BE REFACTORED LATER */
+
+/* TEMPORARY */
+
+.tableheader {
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #4478AC;
+}
+
+.tableheader td, .tableheader th {
+    padding: 0.3em;
+}
+
+.tablesubheader td {
+    padding: 0.3em;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #3E83B6;
+}
+
+.tablesummary {
+    font-weight: 600;
+    color: #000000;
+    background-color: #99cc99;
+}
+
+.tableheader a:link, .tableheader a:visited {
+    color: white;
+}
+
+.tableheader2 {
+    font-weight: 600;
+    color: #000;
+    background-color: #C0C0C0;
+}
+
+.searchtable1 {
+    font-weight: 600;
+    color: #000000;
+    background-color: #cc9933;
+}
+
+.searchtable2 {
+    font-weight: 600;
+    color: #000000;
+    background-color: #cccc00;
+}
+
+.searchtable3 {
+    font-weight: 600;
+    color: #000000;
+    background-color: #99cc99;
+}
+
+.tablecell {
+    color: #000000;
+    background-color: #EAEAEA;
+}
+
+.tablecell td {
+    padding: 0.4em;
+}
+
+.tablecell:hover {
+    background-color: #C7D0E7;
+}
+.tablecell2 {
+    color: #000000;
+}
+
+.panelheader{
+    border : 5px solid khaki;
+    background-color : khaki;
+    color : #666666;
+}
+
+.mdHover {
+    border : 5px solid #C7D0E7;
+    background-color : #C7D0E7;
+    color : #FA7E04;
+}
+.mdClicked {
+    border : 5px solid #C7D0E7;
+    background-color : #C7D0E7;
+    color : #FA7E04;
+}
+.mdSelected {
+    border : 5px solid khaki;
+    background-color : khaki;
+    color : #000000;
+}
+.panelContent {
+    border : 5px solid white;
+    border-top-width    : 0px;
+    border-bottom-width : 0px;
+    background-color: white;
+    font-weight:normal;
+    font-size: 0.9em;
+}
+.panelContent img {
+    vertical-align: middle;
+}
+#accordion {
+    border-bottom : 1px solid #24588C;
+    margin-top : 6px;
+    font-weight:600;
+}
+
+div.panelName, div.panelContent input,
+div.submitComplete input {
+    cursor: pointer;
+}
+
+div.panelContent {
+    cursor: auto;
+}
+
+/* Home styles */
+
+
+.button-row {
+    margin: 1em 0 0 0;
+}
+
+.button-row ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.button-row li {
+    display: inline-block;
+    margin: 0 0 0 1em;
+    padding: 0;
+    height: 2em;
+}
+
+/* No clue what these does */
+
+table.form-table {
+    width: 100%;
+    border-width: 0;
+    border-collapse: separate;
+    border-spacing: 2px;
+    margin: 2em 0 0 0;
+}
+
+table.form-table td {
+    border-width: 0;
+    padding: 4px;
+}
+
+table.list-table {
+    width: 100%;
+    border-width: 0;
+    border-collapse: separate;
+    border-spacing: 2px;
+    margin: 2em 0 0 0;
+}
+
+table.list-table td {
+    border-width: 0;
+    padding: 2px;
+}
+
+table.content-table {
+    width: 95%;
+    border-width: 0;
+    border-collapse: separate;
+    border-spacing: 2px;
+    margin: 0 auto 0 auto;
+}
+
+.add-button, .delete-button, .edit-button, .merge-button, .export-excel-button, .compare-button, .instruction-icon, .canvas-button,
+.button, input[type="submit"], input[type="button"], button {
+    background-color: #e6e6e6;
+    padding: 5px 5px 5px 25px;
+    background-position: 5px 6px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    white-space:nowrap;
+    font-size: 0.9em;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.28);
+    cursor: pointer;
+    border-color: #adadad;
+}
+
+input[type="submit"], input[type="button"], button, .button {
+    padding: 5px 10px;
+    background: #e7e7e7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #e7e7e7, #c1c1c1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #e7e7e7, #c1c1c1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #e7e7e7, #c1c1c1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #e7e7e7, #c1c1c1); /* Standard syntax */
+    border-color: #636363;
+    color: #636363;
+}
+
+input[type="submit"], button.submit {
+    padding: 5px 10px;
+    background: #e7d3f1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #e7d3f1, #c19bd4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #e7d3f1, #c19bd4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #e7d3f1, #c19bd4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #e7d3f1, #c19bd4); /* Standard syntax */
+    border-color: #632b7d;
+    color: #632b7d;
+    font-weight: normal;
+}
+
+.add-button:hover,
+.delete-button:hover,
+.edit-button:hover,
+.merge-button:hover,
+.export-excel-button:hover,
+.compare-button:hover,
+.instruction-icon:hover,
+.canvas-button:hover,
+.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover {
+    background-color: #fbf9ea !important;
+    border-color: #f1cb00;
+    box-shadow: 0 0 5px #decc7c;
+    color: #5f5415 !important;
+}
+
+.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover {
+    background: #fbf9ea; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #fbf9ea, #f8e988); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #fbf9ea, #f8e988); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #fbf9ea, #f8e988); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #fbf9ea, #f8e988); /* Standard syntax */
+}
+
+.add-button {
+    background-image: url('../img/icons/add.gif');
+}
+
+.delete-button {
+    background-image: url('../img/icons/delete.gif');
+}
+
+.edit-button {
+    background-image: url('../img/icons/edit.gif');
+}
+
+.merge-button {
+    background-image: url('../img/icons/merge.gif');
+}
+
+.export-excel-button {
+    background-image: url('../img/icons/export_excel.gif');
+}
+
+.compare-button {
+    background-image: url('../img/icons/merge.png');
+}
+
+.instruction-icon {
+    background-image: url('../img/icons/instructions.gif');
+}
+
+.canvas-button {
+    background-image: url('../img/icons/canvas.png');
+    background-position: 7px;
+}
+
+.question {
+    margin: 0.8em 0 0.8em 0;
+    overflow: visible;
+    position: relative;
+}
+
+.question-tab {
+    float: left;
+    color: white;
+    border: 0px solid red;
+    background-color: #4478AC;
+    text-align: center;
+    cursor: move;
+    padding: 0.6em 0.3em;
+}
+
+.question-content {
+    background-color: #EAEAEA;
+    height: 100%;
+    padding: 0 0 0 35px;
+}
+
+.question-content table {
+    width: 100%;
+    height: 100%;
+}
+
+.multiplier {
+    margin-left: 0.5em;
+    display: inline;
+}
+
+.remove-button {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    color: red;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+textarea.question-title-textarea, textarea.question-descriptor {
+    width: 90%;
+    height: 4em;
+}
+
+.question-title {
+    width: 97%;
+}
+
+.question-instruction-textarea {
+    width: 97%;
+}
+
+.question-descriptor {
+    overflow: auto;
+}
+
+.descriptor-title {
+    margin: 0.5em 0;
+    width: 150px;
+    display: inline-block;
+}
+
+.descriptors {
+    overflow: auto;
+    height: auto;
+    white-space: nowrap;
+}
+
+.descriptor {
+    width: 150px;
+    display: inline-block;
+    white-space: normal;
+    margin: 0 10px 0 0;
+}
+
+.scale-weight {
+    float: right;
+    text-align: right;
+    margin: 0.3em 0;
+    margin-right: 15px;
+}
+
+.scale-weight select {
+    margin-left: 0.5em;
+}
+
+.remove-descriptor-button {
+    float: right;
+}
+
+#summary {
+    text-align: right;
+    background-color: #EAEAEA;
+}
+
+#summary #total {
+    width: 30px;
+}
+
+#controls {
+    text-align: right;
+}
+
+/* evaluation result tables */
+
+#autoRelease_msg {
+    font-weight: bold;
+    text-align: center;
+}
+
+ul.instructions {
+    margin: 1em 0 1em 2em;
+}
+
+ul.instructions li {
+    list-style-type: square;
+    padding: 0.2em;
+}
+
+table.group-list-chooser {
+    margin: auto;
+    border: none;
+}
+
+table.group-list-chooser td{
+    border: none;
+}
+
+.group-list-chooser td.middle-column{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.group-list-chooser td.middle-column input {
+    width: 100px;
+    margin-bottom: 3em;
+}
+
+.group-list-chooser tr.note {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* public */
+
+form div.help-text {
+    margin: 0.5em 0 1em 18em;
+    font-size: 0.8em;
+    width: 35em;
+    color: gray;
+}
+
+.ipeer-icon {
+    background:url('../img/layout/icon_ipeer_logo.gif') center left no-repeat;
+    padding: 0 0.5em 0 1.5em;
+    white-space:nowrap;
+}
+
+#cwl-login td {
+    background-color: transparent;
+}
+
+/* Event Export/Import */
+
+#portEvent .text label, #portEvent .select label,
+#portEvent .checkbox label {
+    width: 18em;
+}
+
+#portEvent .text input {
+    width: 20em;
+}
+
+#portEvent ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0.5em;
+}
+
+#portEvent div.help-text {
+    margin-left: 24em;
+}
+
+#portEvent table.groupslist {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+#portEvent .groupslist th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+#portEvent .groupslist td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}

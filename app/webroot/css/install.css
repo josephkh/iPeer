@@ -1,0 +1,89 @@
+/* INSTALL VIEWS */
+div.install 
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.install h3
+{
+	font-size: 1.5em;
+	font-weight: bolder;
+	margin: 1em 0;
+}
+
+.install h4
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+.install table
+{
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.install th
+{
+	font-weight: bold;
+	text-align: left;
+	padding-top: 1em;
+}
+
+.install td
+{
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 0.4em;
+	padding-top: 1em;
+}
+
+.install form
+{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.install #sysreqform, .install .dbform
+{
+	height: 4em;
+}
+
+.install #gplform
+{
+	height: 5em;
+}
+
+.install form #next
+{
+	width: 6em;
+	font-size: 1em;
+	font-weight: bold;
+	height: 3em;
+	float: right;
+	display: block;
+}
+
+.install .radio input
+{
+	margin: 0.5em;
+}
+
+.install .text label, .install .password label, .install .textarea label, .install .select label
+{
+	width: 16em;
+}
+
+.install .text input, .install .password input, .install .textarea textarea, .install .select select
+{
+    width: 21em;
+}
+
+.install .help
+{
+    font-size: 0.9em;
+    color: chocolate;
+    margin: 0.5em 0 0 0;
+}

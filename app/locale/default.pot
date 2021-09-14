@@ -1,0 +1,4846 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-12-18 16:44-0800\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /Users/compass/projects/ipeer/src//accesses_controller.php:27
+msgid "Error: Invalid Id."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//accesses_controller.php:38
+#: /Users/compass/projects/ipeer/src//pages/admin.ctp:59
+msgid "Permissions Editor"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//accesses_controller.php:62;114
+msgid "Error: Updating Permissions failed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//accesses_controller.php:112
+msgid "Permissions have been updated"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:43
+#: /Users/compass/projects/ipeer/src//elements/global/navigation.ctp:32
+msgid "Courses"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:73
+#: /Users/compass/projects/ipeer/src//events_controller.php:146
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:6
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:12
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_search_panel.ctp:14
+#: /Users/compass/projects/ipeer/src//elements/searchs/instructor_search_panel.ctp:12
+#: /Users/compass/projects/ipeer/src//events/edit.ctp:31
+#: /Users/compass/projects/ipeer/src//events/view.ctp:7
+msgid "Course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:74
+#: /Users/compass/projects/ipeer/src//events_controller.php:147
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:21
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:16
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_title_validate.ctp:5
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:34
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:21
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:15
+msgid "Title"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:76
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:134
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:75
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:25
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:16
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:33
+msgid "Status"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:76
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:26
+msgid "Active"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:76
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:26
+msgid "Inactive"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:77
+msgid "Created by"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:100
+msgid "Are you sure you want to delete this course permanently?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:103
+#: /Users/compass/projects/ipeer/src//groups_controller.php:133
+msgid "Course Home"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:104
+msgid "View Record"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:105;446
+msgid "Edit Course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:106
+msgid "Delete Course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:107
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:109
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:140
+#: /Users/compass/projects/ipeer/src//groups_controller.php:135
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:170
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:174
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:177
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:152
+msgid "View Creator"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:181;201;403;462;778
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:281;297;1887;1976
+#: /Users/compass/projects/ipeer/src//events_controller.php:240;340;797;843
+#: /Users/compass/projects/ipeer/src//groups_controller.php:154;203;227;283;341;867
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:112;154;513
+#: /Users/compass/projects/ipeer/src//users_controller.php:261;605
+msgid "Error: Course does not exist or you do not have permission to view this course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:344;358;772
+#: /Users/compass/projects/ipeer/src//groups_controller.php:368
+#: /Users/compass/projects/ipeer/src//users_controller.php:1134
+msgid "Error: Canvas integration not enabled."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:433
+msgid "The course was updated successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:437
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:200
+msgid "Error: Course edits could not be saved."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:475
+msgid "The course was deleted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:497
+msgid "The student has already submitted to the destination survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:529
+msgid "%s was successfully %s to %s."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:531
+msgid "%s was not successfully %s to %s."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:540
+msgid " %s was unsuccessfully enrolled to %s."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:548
+msgid " %s was unsuccessfully unenrolled from %s."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:567
+msgid "Move Students"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:635
+msgid "student number"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:635
+msgid "username"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:644
+msgid "Error: Event was unable to be created."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:666
+msgid "No student with %s %s exists."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:686
+msgid "The student could not be enrolled to the destination course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:714
+msgid "The student's survey submission could not be transferred, however they are enrolled in the destination course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:720
+msgid "Success."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:725
+msgid " However they were unsuccessfully unenrolled from the source course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:728
+msgid " However no student with %s %s was enrolled in the source course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:732
+msgid "The student has already submitted a peer evaluation in the source course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:736
+msgid "The student has already submitted to the\n                        destination survey, therefore the survey submission from the source survey was not transferred."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses_controller.php:850
+#: /Users/compass/projects/ipeer/src//users_controller.php:276
+#: /Users/compass/projects/ipeer/src//courses/home.ctp:49
+msgid "Students"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments_controller.php:29
+msgid "You do not have access to any faculties"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments_controller.php:51
+msgid "View Department"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments_controller.php:53;96
+msgid "Invalid department"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments_controller.php:77;104
+msgid "The department has been saved"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments_controller.php:80;107
+msgid "The department could not be saved. Please, try again."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments_controller.php:122
+msgid "Invalid id for department"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments_controller.php:127
+msgid "Department deleted"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments_controller.php:131
+msgid "Department was not deleted"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:41;42
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:56
+#: /Users/compass/projects/ipeer/src//users_controller.php:111
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:11
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:41
+#: /Users/compass/projects/ipeer/src//elements/searchs/instructor_search_panel.ctp:27
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:29
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:23
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:8
+msgid "Email"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:59
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:74
+#: /Users/compass/projects/ipeer/src//emailer/view.ctp:19
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:102
+msgid "Subject"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:60
+msgid "Scheduled On"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:61;62
+#: /Users/compass/projects/ipeer/src//emailer/view.ctp:29
+msgid "Sent"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:62
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:97
+msgid "Not Yet"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:64
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:78
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:97
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:106
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:112
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:93
+msgid "Creation Date"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:72
+msgid "Email to show:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:105
+msgid "Are you sure you want to cancel this email?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:107
+#: /Users/compass/projects/ipeer/src//emailer/view.ctp:3
+msgid "View Email"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:108
+msgid "Cancel Email"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:178
+msgid "Invalid Id"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:188
+msgid "Error: You do not have permission to write emails to this course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:196
+msgid "Error: You do not have permission to write emails to this group"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:202
+msgid "Write Email"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:249
+msgid "The Email was saved successfully"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:266;314
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:799
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:458
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:428
+msgid "Invalid ID."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:284
+msgid "Error: You do not have permission to cancel this email schedule"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:291
+msgid "The Email was canceled successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:293
+msgid "Email cancellation failed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:298
+msgid "Cannot cancel: Email is already sent."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:332
+msgid "Error: You do not have permission to view this email schedule"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:436
+msgid "All students in course: "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer_controller.php:444
+msgid "All students in  group: "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:72
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:88
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:96
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:104
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:86
+#: /Users/compass/projects/ipeer/src//elements/searchs/instructor_search_panel.ctp:20
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:4;26;52;78;100
+#: /Users/compass/projects/ipeer/src//evaluations/view_group_submission_details.ctp:46
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:19;27
+#: /Users/compass/projects/ipeer/src//mixevals/view.ctp:3
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:14
+msgid "Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:73
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:90
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:98
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:107
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:88
+#: /Users/compass/projects/ipeer/src//mixevals/view.ctp:5
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:35
+#: /Users/compass/projects/ipeer/src//simple_evaluations/edit.ctp:43
+#: /Users/compass/projects/ipeer/src//simple_evaluations/view.ctp:20
+#: /Users/compass/projects/ipeer/src//surveys/edit.ctp:23
+msgid "Availability"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:73
+msgid "public"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:73
+msgid "private"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:75
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:105
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:709
+#: /Users/compass/projects/ipeer/src//elements/email/html/addEvent.ctp:2
+#: /Users/compass/projects/ipeer/src//elements/email/text/addEvent.ctp:2
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:4
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:107
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:145
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:25
+#: /Users/compass/projects/ipeer/src//elements/evaluations/view_event_info.ctp:16
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:103
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:20
+#: /Users/compass/projects/ipeer/src//evaluations/survey_eval_form.ctp:4
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:20
+#: /Users/compass/projects/ipeer/src//events/view.ctp:16
+#: /Users/compass/projects/ipeer/src//simple_evaluations/view.ctp:12
+msgid "Description"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:77
+#: /Users/compass/projects/ipeer/src//groups_controller.php:95
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:96
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:105
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:111
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:92
+#: /Users/compass/projects/ipeer/src//elements/creator_block.ctp:2
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:58
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:25
+#: /Users/compass/projects/ipeer/src//surveys/view.ctp:8
+msgid "Creator"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:86
+msgid "Email Templates to show:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:134
+msgid "Are you sure you want to delete this email template permanently?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:137;326
+msgid "View Email Template"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:138;234
+msgid "Edit Email Template"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:139
+msgid "Delete Email Template"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:188
+#: /Users/compass/projects/ipeer/src//email_templates/index.ctp:6
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:111
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:174
+msgid "Add Email Template"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:199
+msgid "Save Successful!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:202
+msgid "Save failed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:223
+msgid "Save Successful"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:226
+msgid "Failed to save"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:237
+msgid "Error:Invalid ID."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:259
+msgid "Error: You do not have permission to edit this email template"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:284;333
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:604;716
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:229;332;437;492
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:230;331;401
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:220;301;349;385
+msgid "Error: Invalid ID."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:306
+msgid "Error: You do not have permission to delete this email template"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:313
+msgid "The Email Template was deleted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:315
+msgid "Failed to delete the Email Template."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailtemplates_controller.php:356
+msgid "Error: You do not have permission to vie this email template"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools_controller.php:46
+msgid "Evaluation Tools"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:53
+msgid "Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:85;230;1213
+#: /Users/compass/projects/ipeer/src//events_controller.php:95
+msgid "Results"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:95
+msgid "Late"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:95
+msgid "No Lates"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:127
+#: /Users/compass/projects/ipeer/src//groups_controller.php:92
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:525
+msgid "Group #"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:128
+#: /Users/compass/projects/ipeer/src//groups_controller.php:93;892
+#: /Users/compass/projects/ipeer/src//elements/events/event_groups_detail.ctp:5
+#: /Users/compass/projects/ipeer/src//evaluations/view_group_submission_details.ctp:5
+#: /Users/compass/projects/ipeer/src//groups/edit.ctp:16
+#: /Users/compass/projects/ipeer/src//groups/view.ctp:4
+msgid "Group Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:129
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:47
+msgid "Completed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:130
+#: /Users/compass/projects/ipeer/src//events_controller.php:148;323
+#: /Users/compass/projects/ipeer/src//groups_controller.php:211
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:228
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:83
+#: /Users/compass/projects/ipeer/src//departments/index.ctp:37
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_list.ctp:45
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:11;28
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_group_list.ctp:22
+#: /Users/compass/projects/ipeer/src//faculties/index.ctp:37
+msgid "View"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:131
+msgid "Late?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:135
+msgid "Not Reviewed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:136
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:17
+msgid "Reviewed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:137
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:560
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_rubric_evaluation_results.ctp:104
+msgid "Grade"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:138;141
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:42;53
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_mixeval_evaluation_results.ctp:35
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_rubric_evaluation_results.ctp:29
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:47;58
+msgid "Not Released"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:138;141
+msgid "Some Released"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:139;142
+msgid "Auto-Release"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:139;142
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:286
+msgid "Released"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:140
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:561
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:191
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_rubric_details.ctp:48
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:284
+msgid "Comment"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:156
+msgid "View Results"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:157
+msgid "View Submission"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:158
+#: /Users/compass/projects/ipeer/src//groups_controller.php:131
+msgid "View Group"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:159
+msgid "View Event"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:160
+msgid "Edit Event"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:206;1190;1378
+msgid "Error: Invalid id or you do not have permission to access this event."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:266
+msgid "Error: Invalid id"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:305;364;430;571;688;975;993
+msgid "Error: Invalid Id"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:315
+#: /Users/compass/projects/ipeer/src//elements/courses/ajax_personalize_Course.SubMenu.EvalResults.Show.ctp:10
+msgid "Export Evaluation Results"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:322
+#: /Users/compass/projects/ipeer/src//events_controller.php:294;502;726
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:281;334;368;400;478
+msgid "Error: That event does not exist or you dont have access to it"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:439;698;1004
+msgid "Error: Evaluation is unavailable"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:472;722;1026
+msgid " > Evaluate Peers"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:506
+msgid "One or more of your group members have negative points. Please use positive numbers."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:527;946;1135;1139
+msgid "Your Evaluation was submitted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:533
+msgid "Save Evaluation failure."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:579
+msgid "Error: Survey is unavailable"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:589
+msgid "Error: Survey has already been submitted"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:638
+msgid "Your survey was submitted successfully!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:643
+msgid "Survey save failed, please try again."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:651
+msgid " > Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:793;849
+msgid "some comments are missing"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:796;852
+msgid "you still have to submit the evaluation with the Submit button below"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:799;855
+msgid "Your evaluation has been saved"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:808;860
+msgid "Your evaluation was not saved successfully"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1116
+msgid "Error: Unable to submit the evaluation. Please try again."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1133
+msgid "Error"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1144
+msgid "Your answers have been saved. Please answer all the required questions before it can be considered submitted."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1150
+msgid "Error: It was unsuccessful to save evaluation(s) for "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1200
+msgid "Error: Invalid group id."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1389
+msgid "Error: Invalid group id or you are not in this group."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1395
+msgid "Error: The results are not released."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1408
+msgid "View My Results"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1660
+msgid "Error: That event does not exist or you don't have access to it"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1892
+msgid "Submission Details"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1953
+msgid "Error: Invalid event Id"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1959
+msgid "Error: There are no students in the class"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1967
+msgid "Error: Invalid survey Id"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations_controller.php:1991
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:100
+#: /Users/compass/projects/ipeer/src//elements/evaluations/summary_info.ctp:1
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_mixeval_evaluation_results.ctp:10
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_rubric_evaluation_results.ctp:3
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:27
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:14
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:26
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results.ctp:4
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:13
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:27
+msgid "Summary"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:42;264
+#: /Users/compass/projects/ipeer/src//home/index.ctp:23
+msgid "Events"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:84
+msgid "Not Yet Open"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:86
+msgid "Already Closed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:88
+msgid "Open Now"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:149
+#: /Users/compass/projects/ipeer/src//groups_controller.php:56;159
+#: /Users/compass/projects/ipeer/src//courses/home.ctp:55
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:20
+#: /Users/compass/projects/ipeer/src//events/import.ctp:12
+msgid "Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:150
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:73
+msgid "Type"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:152
+msgid "Simple"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:153
+msgid "Rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:154
+#: /Users/compass/projects/ipeer/src//elements/surveys/ajax_survey_validate.ctp:4
+msgid "Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:155
+msgid "Mixed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:156
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:708
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_list.ctp:28
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:103
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:141
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:21
+#: /Users/compass/projects/ipeer/src//elements/evaluations/view_event_info.ctp:12
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:17
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_search_panel.ctp:27
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:7
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:7
+#: /Users/compass/projects/ipeer/src//events/view.ctp:54
+#: /Users/compass/projects/ipeer/src//home/index.ctp:23
+msgid "Due Date"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:157
+msgid "Released ?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:158
+msgid "Result Released"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:174;184
+msgid "for Course:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:209
+msgid "Are you sure you want to delete this event permanently?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:346
+#: /Users/compass/projects/ipeer/src//events/index.ctp:5
+msgid "Add Event"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:651
+#: /Users/compass/projects/ipeer/src//groups_controller.php:309
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:84
+#: /Users/compass/projects/ipeer/src//departments/index.ctp:43
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_group_list.ctp:24
+#: /Users/compass/projects/ipeer/src//faculties/index.ctp:43
+#: /Users/compass/projects/ipeer/src//surveys/questionssummary.ctp:31
+msgid "Edit"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:738
+msgid "The event has been deleted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:742
+msgid "Failed to delete the event"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:772
+msgid "Event title \""
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:772
+msgid "\" already exists in this course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:790;836
+msgid "Error: Invalid course id"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:803
+msgid "Export Events"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:815
+msgid "Error: could not generate csv"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:849
+#: /Users/compass/projects/ipeer/src//events/import.ctp:31
+msgid "Import Events"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events_controller.php:872
+msgid "Error: The file got uploaded, but could not be processed as a csv."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties_controller.php:38
+msgid "View Faculty"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties_controller.php:41;114
+msgid "Invalid faculty"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties_controller.php:99
+msgid "Faculty added!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties_controller.php:102;123
+msgid "The faculty could not be saved. Please, try again."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties_controller.php:120
+msgid "Faculty saved."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties_controller.php:138
+msgid "Invalid id for faculty"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties_controller.php:142
+msgid "Faculty deleted"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties_controller.php:145
+msgid "Faculty was not deleted"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//framework_controller.php:45
+msgid "Framework"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:96
+msgid "Date"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:122
+msgid "Delete this group?\n"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:123
+msgid "(The students themselves will be unaffected).\n"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:124
+msgid "Proceed?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:132
+msgid "Edit Group"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:134
+msgid "View Course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:136
+msgid "Delete Group"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:196;276;334
+msgid "Error: That group does not exist."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:235
+msgid "The group was added successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:253
+#: /Users/compass/projects/ipeer/src//groups/index.ctp:5
+msgid "Add Group"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:291
+msgid "The group was updated successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:293
+msgid "Error updating that group."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:347
+msgid "The group was deleted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:349
+msgid "Group delete failed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:390
+msgid "Error: Invalid course. Please select a valid course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:412
+msgid "Error: Canvas course associated with this course has been deleted or not accessible. Please select a new Canvas course or otherwise ask someone who has access to the Canvas course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:422
+msgid "Error: Invalid canvas course. Please select a valid canvas course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:456
+msgid "Error: Invalid canvas group set. Please select a valid canvas group set."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:464
+msgid "Sync Canvas Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:600
+msgid "Sorry, we are not able to do simplified sync either because you have some members in more than one group or otherwise because you have diffent members in the same Canvas and iPeer groups. Please use advanced mode."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:639
+msgid "Simplified sync is disabled either because you have some members in more than one group or otherwise because you have diffent members in the same Canvas and iPeer groups. Please use advanced mode."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:686
+#: /Users/compass/projects/ipeer/src//users_controller.php:1112
+msgid "Error: That course does not exist."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:702
+msgid "Import Groups From CSV File (.csv or .txt)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:713
+msgid "Please select a file to upload."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:842
+msgid "Import Groups Results"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:872
+msgid "Export Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:891
+#: /Users/compass/projects/ipeer/src//evaluations/view_group_submission_details.ctp:4
+#: /Users/compass/projects/ipeer/src//groups/edit.ctp:15
+#: /Users/compass/projects/ipeer/src//groups/view.ctp:3
+msgid "Group Number"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:896
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:526
+#: /Users/compass/projects/ipeer/src//users_controller.php:95;1290
+#: /Users/compass/projects/ipeer/src//elements/email/html/resetPassword.ctp:3
+#: /Users/compass/projects/ipeer/src//elements/email/text/addUser.ctp:4
+#: /Users/compass/projects/ipeer/src//elements/email/text/resetPassword.ctp:4
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:3
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:25
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:16
+#: /Users/compass/projects/ipeer/src//elements/users/user_summary_list.ctp:5
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:5
+msgid "Username"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:897
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:527
+msgid "Student No"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:898
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:528
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:20
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:27
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:19
+#: /Users/compass/projects/ipeer/src//elements/users/user_summary_list.ctp:6
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:6
+msgid "First Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:899
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:529
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:14
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:28
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:18
+#: /Users/compass/projects/ipeer/src//elements/users/user_summary_list.ctp:7
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:7
+msgid "Last Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:1057
+msgid "There were no eligible groups or members to import that are not already in iPeer."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:1061
+msgid "Please select one or more non-empty groups to import."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups_controller.php:1089
+msgid "Please select one or more groups to export."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home_controller.php:43
+#: /Users/compass/projects/ipeer/src//elements/global/navigation.ctp:24
+msgid "Home"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home_controller.php:147
+#: /Users/compass/projects/ipeer/src//users_controller.php:1814
+msgid " days"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home_controller.php:152
+#: /Users/compass/projects/ipeer/src//users_controller.php:1818
+msgid " minutes "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home_controller.php:153
+#: /Users/compass/projects/ipeer/src//users_controller.php:1818
+msgid " seconds"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home_controller.php:158
+#: /Users/compass/projects/ipeer/src//users_controller.php:1822
+msgid " hours "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home_controller.php:159
+#: /Users/compass/projects/ipeer/src//users_controller.php:1822
+msgid " minutes"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install_controller.php:48
+msgid "Installation Wizard"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install_controller.php:60
+msgid "WARNING: It looks like you already have a instance running. Please remove the existing database tables before proceeding."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install_controller.php:102;142
+msgid "Please fill in all fields."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install_controller.php:123
+msgid "Cannot write to the configuration directory. Please change the permission on %s so that it is writable."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install_controller.php:129
+msgid "Cannot copy the guard configuration (app/plugins/guard/config/guard_default.php) to the configuration directory as guard.php."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install_controller.php:152
+msgid "Database config failed - %s"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install_controller.php:184
+msgid "Installation failed, unable to write to %s dir"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:43
+#: /Users/compass/projects/ipeer/src//elements/evaltools/tools_menu.ctp:30
+msgid "Mixed Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:70
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:75
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:65
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:12
+#: /Users/compass/projects/ipeer/src//install/index.ctp:14
+msgid "Yes"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:70
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:75
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:65
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:14
+#: /Users/compass/projects/ipeer/src//install/index.ctp:13
+msgid "No"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:89
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:97
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:106
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:87
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:5;27;53;79
+msgid "In Use"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:92
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:51
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:216
+msgid "Peer Evaluation Questions"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:93
+msgid "Self Evaluation Questions"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:94
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_edit.ctp:80
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_view.ctp:80
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:31;56
+msgid "Total Marks"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:106
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:117
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:120
+msgid "Evaluations to show:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:164
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:171
+msgid "Are you sure you want to delete this evaluation permanently?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:166
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:173
+msgid "View Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:167
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:174
+msgid "Edit Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:168
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:175
+msgid "Copy Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:169
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:176
+msgid "Delete Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:226
+msgid "Error: Invalid Mixeval ID."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:254
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:253
+msgid "Error: You do not have permission to view this evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:288;594
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:353
+msgid "Error: You do not have permission to edit this evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:416
+msgid "Unable to save, please check below for error messages."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:501
+msgid "Unable to save the mixed evaluation."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:517
+msgid "Unable to save this mixed eval's questions."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:542
+msgid "Unable to save the mixed eval question descs."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:553
+msgid "The mixed evaluation was saved successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:625
+msgid "%s cannot be edited now that submissions have been made. Please make a copy."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:738
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:424
+msgid "Error: You do not have permission to copy this evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:749
+#: /Users/compass/projects/ipeer/src//rubric.php:255
+msgid "Copy of "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:786
+msgid "You do not have permission to delete mixed evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:821
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:480
+msgid "Error: You do not have permission to delete this evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:834
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:488
+msgid "This evaluation is now in use, and can NOT be deleted.<br />"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:835
+msgid "Please remove all the events associated with this evaluation first."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals_controller.php:841
+msgid "The Mixed Evaluation was removed successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthclients_controller.php:26
+#: /Users/compass/projects/ipeer/src//pages/admin.ctp:30
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:28
+msgid "OAuth Client Credentials"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthclients_controller.php:54
+msgid "A new OAuth client has been created"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthclients_controller.php:61;114
+msgid "The OAuth client could not be saved. Please, try again."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthclients_controller.php:83
+msgid "Error: You do not have permission to create more than one OAuth Client Credential"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthclients_controller.php:103
+msgid "Invalid OAuth client"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthclients_controller.php:111
+msgid "The OAuth client has been saved"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthclients_controller.php:138;141
+msgid "Invalid id for OAuth client"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthclients_controller.php:143
+msgid "OAuth client deleted"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthclients_controller.php:145
+msgid "OAuth client was not deleted"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthtokens_controller.php:26
+#: /Users/compass/projects/ipeer/src//pages/admin.ctp:39
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:45
+msgid "OAuth Token Credentials"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthtokens_controller.php:61
+msgid "New OAuth token created!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthtokens_controller.php:68;109
+msgid "The OAuth token could not be saved. Please, try again."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthtokens_controller.php:98
+msgid "Invalid oauth token"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthtokens_controller.php:106
+msgid "OAuth token saved successfully!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthtokens_controller.php:134;137
+msgid "Invalid id for OAuth token"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthtokens_controller.php:139
+msgid "OAuth token deleted."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauthtokens_controller.php:146
+msgid "OAuth token was not deleted."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:55
+#: /Users/compass/projects/ipeer/src//elements/evaltools/tools_menu.ctp:27
+msgid "Rubrics"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:100
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:29
+msgid "LOM"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:101
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_edit.ctp:40
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:30
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_rubric_evaluation_results.ctp:103
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:50
+msgid "Criteria"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:102
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results.ctp:38
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:125
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:62;157
+msgid "Total"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:107
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:51
+msgid "View Mode"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:168
+msgid "Are you sure you want to delete this Rubric permanently?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:170;264
+msgid "View Rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:171;396
+msgid "Edit Rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:172;468
+msgid "Copy Rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:173
+msgid "Delete Rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:252
+msgid "Error: You do not have permission to view this rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:287
+msgid "Add Rubric (Step 2)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:299
+msgid "The rubric was added successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:304
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:288
+msgid "The evaluation was not added successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:312
+#: /Users/compass/projects/ipeer/src//elements/courses/ajax_personalize_Course.SubMenu.Rubric.Show.ctp:6
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:138
+#: /Users/compass/projects/ipeer/src//rubrics/index.ctp:5
+msgid "Add Rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:353
+msgid "Error: You do not have permission to edit this rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:361
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:362
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:392
+msgid "Submissions had been made. %s cannot be edited. Please make a copy."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:378
+msgid "The rubric evaluation was updated successfully"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:383
+msgid "The evaluation was not updated successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:460
+msgid "Error: You do not have permission to copy this rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:514
+msgid "Error: You do not have permission to delete this rubric"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:522
+msgid "This evaluation is in use. Please remove all the events assosiated with this evaluation first."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics_controller.php:526
+msgid "The rubric was deleted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//searchs_controller.php:64
+msgid "Advanced Search"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:61
+#: /Users/compass/projects/ipeer/src//elements/evaltools/tools_menu.ctp:24
+msgid "Simple Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:109
+msgid "Points/Member"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:284
+msgid "The evaluation was added successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:370
+msgid "The simple evaluation was updated successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:489
+msgid "Please remove all the events assosiated with this evaluation first."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:495
+msgid "The evaluation was deleted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simpleevaluations_controller.php:497
+msgid "Evaluation delete failed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:40;123
+msgid "Survey Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:77
+#: /Users/compass/projects/ipeer/src//elements/email/html/addEvent.ctp:1
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:13
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:21
+msgid "Event"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:78
+msgid "Group Set Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:79
+msgid "Number of Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:80
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:18
+msgid "Released?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:87
+msgid "Are you sure you want to delete this group set permanently?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:89
+msgid "Release"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:90
+msgid "View/Edit Group Set"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:91
+msgid "Delete Group Set"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:161
+msgid "DOMDocument could not be found. Please contact your\n                system administrator to use TeamMaker."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:166
+msgid "Create Group Set"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:212
+msgid "Survey Groups > Teams Summary"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:307
+msgid "The group set was added successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:309
+msgid "The group set saving failed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:340
+msgid "The group set was released successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:342
+msgid "Releasing group set failed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:374
+msgid "The group set was deleted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:376
+msgid "Failed to delete group set."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:492
+msgid "Group set change failed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:497
+msgid "Group set changed successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:537
+msgid "Export Survey Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:546
+msgid "Please select a survey group set to export."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveygroups_controller.php:550
+msgid "Please select at least one export field."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:44;184
+#: /Users/compass/projects/ipeer/src//elements/evaltools/tools_menu.ctp:33
+msgid "Surveys"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:85
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:70
+msgid "ID"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:90
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:81
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_mixeval_evaluation_results.ctp:55
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:160
+msgid "Questions"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:101
+msgid "Surveys to show:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:145
+msgid "Are you sure you want to delete this survey permanently?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:147
+msgid "View Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:148
+msgid "Edit Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:149;448
+msgid "Edit Questions"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:150
+msgid "Copy Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:151
+msgid "Delete Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:252
+msgid "Survey is saved!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:256
+msgid "Error on saving survey."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:294;421;518;571
+msgid "Error: You do not have permission to edit this survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:309;436
+msgid "Submissions have been made. %s cannot be edited. Please make a copy."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:318
+msgid "The Survey was edited successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:322
+msgid "Error: The Survey was not saved successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:360
+msgid "Copy"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:378
+msgid "Error: You do not have permission to delete this survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:398
+msgid "The survey was deleted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:400
+msgid "Survey delete failed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:499
+msgid "The question was removed successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:542
+msgid "The question was added successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:549
+msgid "Failed to save question."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:603
+msgid "The question was updated successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:606
+msgid "Error in saving question."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys_controller.php:613
+msgid "Edit Question"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:58
+msgid "Sys Parameters"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:71
+msgid "Code"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:72
+msgid "Value"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:77
+#: /Users/compass/projects/ipeer/src//emailer/view.ctp:41
+#: /Users/compass/projects/ipeer/src//surveys/view.ctp:12
+msgid "Created"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:78
+msgid "Updated"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:80
+msgid "Are you sure you wish to delete this System Parameter?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:85
+#: /Users/compass/projects/ipeer/src//departments/index.ctp:49
+#: /Users/compass/projects/ipeer/src//elements/emailer/edit_recipient.ctp:3
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:31
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_group_list.ctp:24
+#: /Users/compass/projects/ipeer/src//faculties/index.ctp:49
+#: /Users/compass/projects/ipeer/src//surveys/questionssummary.ctp:33
+msgid "Delete"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:151;179;204
+msgid "String"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:151;179;204
+msgid "Integer"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:151;179;204
+msgid "Boolean"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:151;179;204
+msgid "Encrypted String"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:172
+msgid "The record is saved successfully"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:175
+msgid "Failed to save the record"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:197
+msgid "The record is edited successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sysparameters_controller.php:225
+msgid "The record is deleted successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//upgrade_controller.php:27
+msgid "Upgrade"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//upgrade_controller.php:30
+msgid "It seems you do not have a installation of iPeer. Please install it first!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:51
+#: /Users/compass/projects/ipeer/src//elements/global/navigation.ctp:38
+msgid "Users"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:102;1289
+msgid "Full Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:121
+msgid "Delete this user. Irreversible. Are you sure?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:122
+msgid "Resets user's password. Are you sure?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:123
+msgid "Resets user's password without sending a email. The user will lose access to the system. Are you sure?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:132
+msgid "Show role:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:170;403
+msgid "View User"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:171
+msgid "Send Email"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:172
+msgid "Edit User"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:173
+msgid "Delete User"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:174
+msgid "Reset Password"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:179
+msgid "Reset Password Without Email"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:298;304;311
+msgid "Failed to save.</br>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:366
+msgid "Error: You do not have permission to view users"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:371
+msgid "Error: This user does not exist"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:377;398
+msgid "Error: You do not have permission to view this user"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:610
+#: /Users/compass/projects/ipeer/src//users/index.ctp:8
+msgid "Add User"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:630
+msgid "Error: You do not have permission to enrol this user."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:634
+msgid "Error: The student is already enrolled."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:641;656
+msgid "Error: Unable to enrol the user."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:654
+msgid "User is successfully enrolled."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:679
+msgid "Error: You do not have permission to readd this user."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:685
+msgid "User is successfully readded."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:687
+msgid "Error: Unable to readd the user."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:709
+msgid "Error: This user does not exist."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:714
+msgid "Error: You do not have permission to edit users."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:719
+msgid "Error: You do not have permission to edit this user."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:802
+msgid "User successfully updated!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:809
+msgid "Error: Unable to update user."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:840
+msgid "Error: You do not have permission to edit this user"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:871
+msgid "New passwords do not match"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:875
+msgid "Old password is incorrect"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:884
+msgid "Your Profile Has Been Updated Successfully."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:903
+msgid "Edit Profile"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:954
+msgid "Error: You do not have permission to delete this user"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:982
+msgid "Record is successfully deleted!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:989
+msgid "Error: Delete failed!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:994
+msgid "Student is successfully unenrolled!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:996
+msgid "Error: Unenrol failed!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1022
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_username_validate.ctp:5
+msgid "Username \""
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1022
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_username_validate.ctp:5
+msgid "\" already exists."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1051;1089
+msgid "Password successfully reset. The new password is %s."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1059
+msgid "Email has been sent. "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1061
+msgid "Email was <u>not</u> sent to the user. "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1064
+msgid "No email has been sent. User does not have email address."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1138
+msgid "Import Students From Canvas"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1200
+msgid "Import Students From CSV File (.csv or .txt)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1291
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:27
+msgid "Student No."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1293
+#: /Users/compass/projects/ipeer/src//users/index.ctp:5
+msgid "Merge Users"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1305
+msgid "Error: The secondary account is the currently logged in user."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1310
+msgid "Error: The users do not have the same role."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1315
+msgid "Error: No merger needed. The primary and secondary accounts are the same."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1335
+msgid "The two accounts have successfully merged."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1338
+msgid "Error: The two accounts could not be merged."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1469
+msgid "User Not Found!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users_controller.php:1500
+msgid "Error: You do not have permission to reset the password for this user"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/canvas_api.php:279
+msgid "Canvas authorization was cancelled. You need to authorize iPeer in order to use Canvas functionalities."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/canvas_api.php:340
+msgid "Error: Authentication failed. %s"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/canvas_api.php:343
+msgid "Error: Authentication failed. Canvas did not send back an access token, and additionally did not provide an error message, either."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/canvas_api.php:362
+msgid "Error: Authentication failed. Connection error: %s"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export.php:343
+msgid "Status(X/OK),"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export.php:344
+msgid "Group Name,"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export.php:345
+msgid "First Name,"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export.php:346
+msgid "Last Name,"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export.php:347
+msgid "Student Number,"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export.php:348
+msgid "Email,"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export.php:349
+msgid "Final Mark,"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export.php:357
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:139
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_view.ctp:28;103
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:68
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:269
+msgid "Comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:102
+msgid "Members who have not submitted their evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:108
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:32
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:44
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results.ctp:22
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:31
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:53
+msgid "Left the group, but had submitted or were evaluated"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:115
+#: /Users/compass/projects/ipeer/src//elements/searchs/search_menu.ctp:6
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:66
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:78
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results.ctp:34
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:77
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:68
+msgid "Evaluation Results"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:226;544
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:104
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:284
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:48;153;267
+msgid "Evaluatee"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:239;549
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:115
+msgid "Final Total"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:284;700
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:9
+#: /Users/compass/projects/ipeer/src//elements/evaluations/view_event_info.ctp:6
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_mixeval_evaluation_results.ctp:62
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:8
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:51
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:84
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:8
+#: /Users/compass/projects/ipeer/src//mixevals/add.ctp:32
+msgid "Self-Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:377;463
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:48
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:32
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:124;205
+msgid "Group Average"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:526
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:95
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:133
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:72
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:225
+msgid "Evaluator"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:546
+msgid "Number of Evaluators"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:566
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_rubric_details.ctp:58
+msgid "General Comment"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:697
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:14
+#: /Users/compass/projects/ipeer/src//elements/evaluations/view_event_info.ctp:4
+#: /Users/compass/projects/ipeer/src//elements/groups/ajax_group_validate.ctp:6
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:6
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:36;54
+msgid "Group"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:703
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:101
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:139
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:19
+#: /Users/compass/projects/ipeer/src//elements/evaluations/view_event_info.ctp:10
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:5
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:5
+msgid "Event Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/export_pdf.php:706
+msgid "Evaluation Type"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/framework.php:29
+msgid "No filename extension. Must be csv."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/framework.php:36
+msgid "Error reading file"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/framework.php:39
+msgid "iPeer does not support the file type '."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/framework.php:40
+msgid "'. Please use only text files (.txt) or comma seperated values files (.csv)."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/framework.php:64
+msgid "days"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/framework.php:66
+msgid "hours"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/framework.php:68
+msgid "minutes"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/framework.php:70
+msgid "seconds"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//components/penalty.php:39;50
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:216
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:101;107;134;137
+msgid "N/A"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//event.php:1027
+msgid "Error: No events to import."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//user.php:625
+msgid "Invalid column number on line %d"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//user.php:630
+msgid "Username can not be empty. line %d"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//user.php:662
+msgid "No valid user to add"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//accesses/view.ctp:6
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:5
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:26
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:20
+msgid "Role"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/edit.ctp:21
+msgid "Linked with <br/>Canvas course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/edit.ctp:40
+msgid "Course subjects and course numbers, e.g. APSC 201 001"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/edit.ctp:42
+msgid "Course title, e.g. Technical Communication"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/edit.ctp:59
+msgid "Add Instructor"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/edit.ctp:88
+msgid "Add Tutor"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/edit.ctp:111
+msgid "Selecting correct associations will allow admin to help troubleshooting."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/edit.ctp:113
+msgid "e.g. http://mycoursehome.com"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/edit.ctp:115
+#: /Users/compass/projects/ipeer/src//departments/edit.ctp:6
+#: /Users/compass/projects/ipeer/src//faculties/edit.ctp:9
+#: /Users/compass/projects/ipeer/src//mixevals/add.ctp:49
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:89
+#: /Users/compass/projects/ipeer/src//simple_evaluations/edit.ctp:51
+#: /Users/compass/projects/ipeer/src//sys_parameters/add.ctp:8
+#: /Users/compass/projects/ipeer/src//sys_parameters/edit.ctp:14
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:61
+msgid "Save"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/home.ctp:60
+#: /Users/compass/projects/ipeer/src//elements/searchs/search_menu.ctp:5
+msgid "Evaluation Events"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/home.ctp:66
+msgid "Team Maker"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:2
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:2
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:2
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:266
+#: /Users/compass/projects/ipeer/src//events/import.ctp:2
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:2
+#: /Users/compass/projects/ipeer/src//survey_groups/export.ctp:2
+#: /Users/compass/projects/ipeer/src//users/import.ctp:3
+#: /Users/compass/projects/ipeer/src//users/merge.ctp:2
+msgid "Instructions"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:4
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:4
+msgid "All fields are mandatory."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:5
+msgid "When all fields are filled, the Submit button will become available."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:6
+msgid "If the source course does not have a survey, the source survey and destination survey fields are not required."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:7
+msgid "You can choose to import into a duplicate of the source survey or choose an existing survey."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:8
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:6
+msgid "The conditions below must be met for the move to be successful."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:10
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:8
+msgid "Conditions"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:12
+msgid "Only Text (.txt) and CSV File (.csv) can be used."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:13
+msgid "Only student numbers and usernames can be used in the file but not both."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:14
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:12
+msgid "The Destination Course must be accessible to you."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:15
+msgid "The existing Destination Survey needs to use the same template as the Source Survey."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:17
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:16
+#: /Users/compass/projects/ipeer/src//users/import.ctp:18
+msgid "Examples:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:30
+msgid "Move or Copy Group of Students"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:37
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:32
+msgid "Student Identifier"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:43;53
+msgid "No surveys were found in the Source Course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:49
+msgid "Destination Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:57
+msgid "Move or Copy?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import.ctp:60
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:29
+msgid "\"Move\" will unenrol the student from the Source Course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import_summary.ctp:2
+msgid "User(s) failed to transfer:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import_summary.ctp:3
+msgid "Reason"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import_summary.ctp:6
+msgid "User(s) successfully transferred:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import_summary.ctp:7
+msgid "Note"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/import_summary.ctp:11
+#: /Users/compass/projects/ipeer/src//users/user_summary.ctp:22
+msgid "Back to Course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/index.ctp:7
+msgid "Add Course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/index.ctp:16
+msgid "Add Course Based on Canvas"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:5
+msgid "When all fields have been filled, the Submit button will become available."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:10
+msgid "The Source Course must have a survey."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:11
+msgid "The Student being moved must have made a submission to the Source Survey."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:13
+msgid "The Source Survey needs to use the same template as the Source Survey."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/move.ctp:15
+msgid "Move or Copy Student"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/select_canvas.ctp:14
+msgid "Select a Canvas course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/select_canvas.ctp:16
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:69
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_group_list.ctp:54
+#: /Users/compass/projects/ipeer/src//groups/sync_canvas.ctp:33
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:83
+msgid "Next"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/select_canvas.ctp:21
+msgid "No accessible Canvas course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/sync_canvas_enrollment.ctp:4
+msgid "Comparing with Canvas course:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/sync_canvas_enrollment.ctp:8
+msgid "No accessible Canvas course to compare"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/sync_canvas_enrollment.ctp:12
+msgid "Students currently enrolled in this iPeer course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/sync_canvas_enrollment.ctp:79
+msgid "Unenroll selected"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/sync_canvas_enrollment.ctp:84
+msgid "Students enrolled in the Canvas course but not the iPeer course"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/sync_canvas_enrollment.ctp:151
+msgid "Enroll selected"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/sync_canvas_enrollment.ctp:156
+msgid "Students enrolled in the Canvas course and without iPeer accounts"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/sync_canvas_enrollment.ctp:225
+msgid "Are you sure you want to enroll selected students to this iPeer course?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/sync_canvas_enrollment.ctp:231
+msgid "Are you sure you want to unenroll selected students from this iPeer course?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:8
+msgid "Instructor(s)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:16
+msgid " Email To All"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:16
+msgid " Email To All Instructors"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:27
+msgid "Homepage"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:33
+msgid "Created By"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:35
+msgid "Updated By"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:39
+msgid "Created At"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:41
+msgid "Updated At"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//courses/view.ctp:46
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:80
+#: /Users/compass/projects/ipeer/src//simple_evaluations/edit.ctp:50
+#: /Users/compass/projects/ipeer/src//simple_evaluations/view.ctp:28
+#: /Users/compass/projects/ipeer/src//surveys/edit.ctp:27
+#: /Users/compass/projects/ipeer/src//surveys/view.ctp:54
+msgid "Back"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments/add.ctp:5
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:217;226
+msgid "Add"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments/index.ctp:4
+msgid "Add Department"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//departments/index.ctp:54
+#: /Users/compass/projects/ipeer/src//faculties/index.ctp:54
+msgid "Are you sure you want to delete %s?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/creator_block.ctp:11
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:64
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:26
+#: /Users/compass/projects/ipeer/src//sys_parameters/view.ctp:8
+msgid "Create Date"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/creator_block.ctp:16
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:60
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:27
+msgid "Updater"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/creator_block.ctp:25
+#: /Users/compass/projects/ipeer/src//elements/framework/view_user_detail.ctp:66
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:28
+#: /Users/compass/projects/ipeer/src//sys_parameters/view.ctp:9
+msgid "Update Date"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/courses/ajax_personalize_Course.SubMenu.EvalResults.Show.ctp:6
+msgid "List Evaluation Results"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/courses/ajax_personalize_Course.SubMenu.Rubric.Show.ctp:11
+msgid "List Rubrics"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/courses/ajax_personalize_Course.SubMenu.SimpleEvals.Show.ctp:6
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:126
+#: /Users/compass/projects/ipeer/src//simple_evaluations/index.ctp:6
+msgid "Add Simple Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/courses/ajax_personalize_Course.SubMenu.SimpleEvals.Show.ctp:11
+msgid "List Simple Evaulations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/courses/course_selection_box.ctp:13
+msgid " --- No Course Selected --- "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/courses/course_selection_box.ctp:14
+msgid " --- All Courses --- "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/courses/edit_instructor.ctp:7
+msgid "Are you sure to remove instructor "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/courses/edit_instructor.ctp:7
+msgid " from this course?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/courses/edit_instructor.ctp:10
+msgid "Communication error!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/email/html/addEvent.ctp:1
+msgid "is created"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/email/html/addEvent.ctp:3
+#: /Users/compass/projects/ipeer/src//elements/email/text/addEvent.ctp:3
+msgid "Due"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/email/html/resetPassword.ctp:1
+#: /Users/compass/projects/ipeer/src//elements/email/text/addUser.ctp:2
+#: /Users/compass/projects/ipeer/src//elements/email/text/resetPassword.ctp:2
+msgid "Hello "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/email/html/resetPassword.ctp:2
+#: /Users/compass/projects/ipeer/src//elements/email/text/resetPassword.ctp:3
+msgid "Your iPeer password has been reset to the password below."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/email/html/resetPassword.ctp:4
+#: /Users/compass/projects/ipeer/src//elements/email/text/addUser.ctp:5
+#: /Users/compass/projects/ipeer/src//elements/email/text/resetPassword.ctp:5
+#: /Users/compass/projects/ipeer/src//elements/users/user_summary_list.ctp:9
+msgid "Password"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/email/text/addEvent.ctp:1
+msgid "Event "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/email/text/addEvent.ctp:1
+msgid " is created"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/email/text/addUser.ctp:3
+msgid "An instructor or admin has created an account for you in iPeer."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/email/text/addUser.ctp:6
+msgid "You can login at "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/emailer/edit_recipient.ctp:7
+msgid " will be removed from the To: field..."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/emailer/edit_recipient.ctp:15
+msgid "Removal error!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaltools/tools_menu.ctp:21
+msgid "All My Tools"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaltools/tools_menu.ctp:36
+msgid "Emailer"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaltools/tools_menu.ctp:39
+msgid "Email Templates"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_list.ctp:8
+msgid "Page Size"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_list.ctp:26
+msgid "Evaluation Event Title"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_list.ctp:30
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:19
+msgid "Self Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_list.ctp:45
+msgid "View "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_list.ctp:85
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:93
+msgid "Page %page% of %pages%, showing %current% records out of %count% total<br/>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:15
+msgid "Completion Rate"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:18
+msgid "Released Comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:19
+msgid "Released Grades"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:28
+msgid "View Evaluation Result"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:34
+#: /Users/compass/projects/ipeer/src//events/view.ctp:12
+msgid "Event Title"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:37
+msgid "Group Submission Detail"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:37
+msgid "Group "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:39
+msgid "completed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:50
+msgid "Not Completed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:61
+msgid "marked"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:64
+msgid "Ready to Review"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/ajax_evaluation_result_list.ctp:67
+msgid "Not Ready to Review"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_details.ctp:4
+msgid " Comments/Grades Not Released Yet"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_details.ctp:6
+msgid " Grades Not Released Yet"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_details.ctp:8
+msgid " Comments Not Released Yet"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_details.ctp:38;103
+msgid "Grades Not Released Yet"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_details.ctp:41
+msgid "Comments Not Released Yet"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_details.ctp:55
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_details.ctp:29
+msgid "Grade:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_details.ctp:76
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_rubric_details.ctp:36;43;49;59
+msgid "n/a"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_details.ctp:89
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_details.ctp:65
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:333
+msgid "Save Changes"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:7
+msgid "Notes"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:10
+msgid "The evaluation is due on %s."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:11
+msgid "To resubmit an evaluation, all required questions must be answered."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:13
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:120
+msgid "The evaluation can be repeatedly submitted until "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:14
+msgid " marks required questions."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:16
+msgid "Show/Hide Late Penalty Policy"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:23
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:130
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:168
+msgid "Then until %d day(s) after the due date, %s will be deducted."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:25
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:132
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:170
+msgid "From the due date to %d days(s) late, %s will be deducted."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:29
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:136
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:174
+msgid "%s is deducted afterwards."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:31
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:176
+msgid "No penalty is specified for this evaluation."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:73
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:225
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:55
+msgid "Self-Evaluation Questions"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:83
+msgid "Submit the Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:93;125
+msgid "Please make sure that the total of the grades in the drop-downs equals %s and then press \"Submit\" again."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/mixeval_eval_form.ctp:130
+msgid "Please fill in all required questions before resubmitting the evaluation."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_details.ctp:17
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_rubric_details.ctp:27
+msgid "Points"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_details.ctp:42
+msgid "Comment:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_details.ctp:49
+msgid "General Comment:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:44
+msgid "You have not completed all the questions for %fullname%. Would you like to discard changes?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:53
+msgid "Saving... Please wait."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:92
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:130
+#: /Users/compass/projects/ipeer/src//elements/evaluations/view_event_info.ctp:2
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:1
+msgid "Evaluation Event Detail"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:97
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:135
+msgid "Evaluating"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:112
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:150
+msgid " Instructions"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:114
+msgid "Click <font color =\"#FF6666\"><i>EACH</i></font> of your peer's name to rate their performance."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:115
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:155
+msgid "Enter Comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:115
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:155
+msgid "Required"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:115
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:155
+msgid "Optional"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:116
+msgid "Press \"Save This Section\" to save the evaluation for each group member."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:117
+msgid "Press \"Submit to Complete the Evaluation\" to submit your evaluation to all peers."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:118
+msgid "<i>NOTE:</i> You can click the \"Submit to Complete the Evaluation\" button only <font color =\"#FF6666\">AFTER</font> all evaluations are completed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:119
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:157
+msgid "Evaluation's release end date"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:123
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:161
+msgid "Show/Hide late penalty policy"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:158
+msgid "(click to expand)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:171;173
+msgid "Save This Section"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:174;204
+msgid "This is a preview. All submissions are disabled."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:176
+msgid "Please complete all the questions marked red before saving."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:177
+msgid "Make sure you save this section before moving on to the other ones!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:201;203
+msgid "Submit to Complete the Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:205
+msgid "Please enter all the comments for all the group members before submitting."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/rubric_eval_form.ctp:207
+msgid "You haven't completed evaluations for all your teammates. You can submit now and modify your submission by the due date."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:27
+msgid "All points are allocated."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:32
+msgid "All points are allocated.<br />There are still "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:32;47;61
+msgid " comments to be filled."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:36
+msgid "All points are allocated.<br />All comments are filled."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:44;47;50
+msgid "Too many points, need to unallocate"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:44
+msgid "points."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:47
+msgid "points.<br />There are still"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:50
+msgid "points.<br />All comments are filled."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:58;61;64
+msgid "Please allocate"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:58
+msgid "more points."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:61
+msgid " more points.<br />There are still"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:64
+msgid " more points.<br />All comments are filled."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:152
+msgid "Rate your peer's relative performance by using the slider. [Weight 1-10]"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:153
+msgid "Click \"Distribute\" button to distribute points."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:154
+msgid "Allocate any remaining point."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:156
+msgid "NOTE:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:156
+msgid "\"Submit Evaluation\" button will only be enabled when all points, and comments (if required), are filled!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:158
+msgid "The evaluation can be repeatedly submitted until %s."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:188
+msgid "Member(s)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:189
+msgid "Relative Weight"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:190
+#: /Users/compass/projects/ipeer/src//elements/mixevals/view_mixeval_details.ctp:51
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_view.ctp:61;160
+msgid "Mark"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:191
+msgid "(Optional)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:239
+msgid "Points Allocated/Total:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:242
+msgid "Distribute"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/simple_eval_form.ctp:249
+msgid "Submit Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:4
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:1
+msgid "Evaluation Result Detail"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:7
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:6
+msgid "Evaluated By"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_event_info.ctp:30
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_mixeval_evaluation_results.ctp:13
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_rubric_evaluation_results.ctp:6
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:30
+msgid "Rating"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_rubric_details.ctp:7
+msgid "Person Being Evaluated"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_rubric_details.ctp:15
+msgid " Comments/Grades Not Released Yet."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_survey_info.ctp:12
+msgid "Team Maker Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/student_view_survey_info.ctp:72
+#: /Users/compass/projects/ipeer/src//oauth_clients/add.ctp:12
+#: /Users/compass/projects/ipeer/src//oauth_clients/edit.ctp:11
+#: /Users/compass/projects/ipeer/src//oauth_tokens/add.ctp:13
+#: /Users/compass/projects/ipeer/src//oauth_tokens/edit.ctp:12
+msgid "Submit"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/summary_info.ctp:2
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:15
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:27
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results.ctp:5
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:14
+msgid "Basic"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/summary_info.ctp:3
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:16
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:28
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results.ctp:6
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:15
+msgid "Detail"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/evaluations/summary_info.ctp:9
+msgid "These people have not yet submitted their evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:14
+msgid "Actions"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:31
+msgid "Are you sure you want to delete event"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:39;42
+msgid "YES"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:39;42
+msgid "NO"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:45;45
+msgid "View Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:54
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:81
+msgid "Record Not Found"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:63
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_group_list.ctp:52
+msgid "Results: "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_event_list.ctp:67
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_group_list.ctp:54
+msgid "Prev"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/ajax_title_validate.ctp:5
+#: /Users/compass/projects/ipeer/src//elements/surveys/ajax_survey_validate.ctp:4
+msgid "already exists."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/event_groups_detail.ctp:4
+msgid "Group No."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/event_groups_detail.ctp:6
+#: /Users/compass/projects/ipeer/src//groups/edit.ctp:20
+msgid "Members"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/event_selection_box.ctp:12
+#: /Users/compass/projects/ipeer/src//elements/searchs/ajax_event_box.ctp:12
+msgid "No event Selected"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/events/event_selection_box.ctp:14
+msgid "All events"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/global/debug.ctp:66;79;89;101;116
+msgid "(Empty)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/global/debug.ctp:133;142
+msgid "(No SQL Data)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/global/footer.ctp:3
+msgid "Powered by iPeer and TeamMaker - Created by UBC and Rose-Hulman"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/global/navigation.ctp:50
+#: /Users/compass/projects/ipeer/src//events/view.ctp:26
+msgid "Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/global/navigation.ctp:63
+msgid "Admin"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/global/navigation.ctp:68
+msgid "Logout"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/groups/ajax_group_validate.ctp:6
+msgid "already exists"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/groups/group_list_chooser.ctp:22
+msgid "Assign"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/groups/group_list_chooser.ctp:23
+msgid "Remove"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/list/ajaxList.ctp:22
+msgid "You need the PHP json extension."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/list/ajaxList.ctp:23
+msgid "  Please use PHP >= 5.2 and enable it in php.ini <br />"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/list/ajaxList.ctp:24
+msgid "  (uncomment or create the line:<br />"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/list/ajaxList.ctp:28;30;32
+msgid " variable not set or empty!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/list/checkBoxList.ctp:8
+msgid "Error: Please set all parameters for checkBoxList.<br/>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/list/checkBoxList.ctp:56
+msgid "Use the checkmarks to"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/list/checkBoxList.ctp:57
+msgid "in <b><u>bold</u></b> are the ones selected initially.)<br/>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/list/checkBoxList.ctp:59
+msgid "(The selected %s are check-marked and in <b><u>bold</u></b>)</br />"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:25
+msgid "Likert Answer Question"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:30
+msgid "Paragraph Answer Question"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:34
+msgid "Sentence Answer Question"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:38
+msgid "Score Dropdown Answer Question"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:79
+msgid "Unrequired Likert questions are not counted toward the total rating."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:108
+msgid "The increments on the drop-down will be based on 10 base points per member, the drop-down will go from 1 to (10 x No. of GroupMembers) in increments of 1 <br>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:131
+msgid "This mark will be scaled according to the response. E.g.: If there are 5 scale levels and this is set at 1, the lowest scale will be worth 0.2 marks, the second lowest 0.4 marks, and so on with the highest scale being worth the full 1 mark."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/mixevals/questions_editor.ctp:135
+msgid "This setting will hide/show the mark distribution to those taking the evaluation."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_edit.ctp:22
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:96
+msgid "Rubric Preview"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_edit.ctp:25
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_view.ctp:99
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:19
+msgid "Level of Mastery"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_edit.ctp:31
+msgid "Criteria Weight"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_edit.ctp:45
+msgid "Show Marks"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_edit.ctp:52
+msgid "Specific Comment"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_view.ctp:9
+msgid "required"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_view.ctp:41;131
+msgid " mark(s)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/rubrics/ajax_rubric_view.ctp:82
+msgid "General Comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/ajax_event_box.ctp:14
+msgid " --- All events --- "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:9
+msgid "Evaluation Result Search Panel"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:36
+msgid "--- None ---"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:37
+msgid "List Not Reviewed Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:38
+msgid "List Late Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:39
+msgid "List Ranged Mark Evaluations (set mark range below)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:54
+msgid "Result Mark(%)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:56
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_search_panel.ctp:30;48
+msgid "FROM"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_result_search_panel.ctp:60
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_search_panel.ctp:35;52
+msgid "TO"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_search_panel.ctp:11
+msgid "Evaluation Event Search Panel"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_search_panel.ctp:21
+msgid "Event Type"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_search_panel.ctp:23
+msgid "--- All Event Types ---"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_search_panel.ctp:45
+msgid "Release Date:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/evaluation_search_panel.ctp:58
+msgid "specify a date range to search any event that are being released during that period of time."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/instructor_search_panel.ctp:9
+msgid "Instructor Search Panel"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/searchs/search_menu.ctp:7
+#: /Users/compass/projects/ipeer/src//home/index.ctp:15;56
+msgid "Instructors"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_group_list.ctp:17
+msgid "Release Now"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_group_list.ctp:24
+msgid "Are you sure you want to delete survey group set"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_group_list.ctp:38
+msgid "Confirm Survey Release"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_makegroups.ctp:13
+msgid "Team Making - Step One"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_makegroups.ctp:16
+msgid " students were specified for this survey, "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_makegroups.ctp:16
+msgid " students responded"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_makegroups.ctp:21
+msgid "Group Configuration"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_makegroups.ctp:28
+msgid "There must be at least one question."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_makegroups.ctp:45
+msgid "Gather<br />Similar"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_makegroups.ctp:45
+msgid "Ignore"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_makegroups.ctp:46
+msgid "Gather<br />Dissimilar"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/survey_groups/ajax_survey_makegroups.ctp:54
+msgid "Note: It may take up to 10mins to create groups."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:53
+msgid "Are you sure you want to delete user"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:61
+msgid "Reset "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:61
+msgid "'s password"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:63
+msgid "Are you sure you want to reset password for user"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:98
+msgid "Prev "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/ajax_user_list.ctp:102
+msgid " Next"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:5
+msgid "%s Account"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:11
+msgid "User"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/merge_search.ctp:11
+msgid "-- Search for the %s account --"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//elements/users/user_summary_list.ctp:8
+msgid "E-mail"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//email_templates/add.ctp:13
+#: /Users/compass/projects/ipeer/src//email_templates/edit.ctp:13
+#: /Users/compass/projects/ipeer/src//mixevals/add.ctp:22
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:34
+#: /Users/compass/projects/ipeer/src//simple_evaluations/edit.ctp:42
+#: /Users/compass/projects/ipeer/src//surveys/edit.ctp:22
+msgid "Private"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//email_templates/add.ctp:14
+#: /Users/compass/projects/ipeer/src//email_templates/edit.ctp:14
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:6;28;54;80;101
+#: /Users/compass/projects/ipeer/src//mixevals/add.ctp:22
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:34
+#: /Users/compass/projects/ipeer/src//simple_evaluations/edit.ctp:42
+#: /Users/compass/projects/ipeer/src//surveys/edit.ctp:22
+msgid "Public"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//email_templates/add.ctp:19
+#: /Users/compass/projects/ipeer/src//email_templates/edit.ctp:19
+msgid "Public lets you share this email template with other instructors."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//email_templates/add.ctp:28
+#: /Users/compass/projects/ipeer/src//email_templates/edit.ctp:28
+#: /Users/compass/projects/ipeer/src//email_templates/view.ctp:24
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:134
+msgid "-- Select Merge Field --"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/view.ctp:6
+msgid "To"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/view.ctp:24
+msgid "Scheduled on"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/view.ctp:36
+msgid "Content"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:16
+msgid "Add Additional Recipient"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:23
+msgid "Please select a recipient!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:51
+msgid "Single Email"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:52
+msgid "Multiple Emails"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:64
+msgid "(send "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:72
+msgid " times, with "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:79
+msgid "minute(s)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:80
+msgid "hour(s)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:81
+msgid "day(s)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//emailer/write.ctp:98
+msgid "-- No Template --"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//errors/missing_connection.ctp:2
+msgid "No iPeer database found. You may want to run %s first. Otherwise make sure you define in it <u><tt>app/config/database.php</tt></u> in the following format:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//errors/missing_connection.ctp:15
+msgid "For more details, also see this file:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//errors/permission_denied.ctp:2
+msgid "Access Denied"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//errors/permission_denied.ctp:4
+msgid "You don't have permission to access this page."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//errors/permission_denied.ctp:5
+msgid "Click here to go back"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:7
+#: /Users/compass/projects/ipeer/src//simple_evaluations/view.ctp:16
+msgid "Base Point Per Member"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:125
+msgid "My Simple Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:126
+msgid "All Simple Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:137
+msgid "My Rubrics Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:138
+msgid "All Rubric Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:149
+msgid "My Mixed Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:150
+#: /Users/compass/projects/ipeer/src//mixevals/index.ctp:4
+msgid "Add Mixed Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:150
+msgid "All Mixed Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:161
+msgid "My Surveys"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:162
+msgid "Add Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:162
+msgid "All Surveys"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:173
+msgid "My Email Templates"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaltools/index.ctp:174
+msgid "All Email Templates"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:4
+msgid "Give the export file a name, which is default to today's date."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:5
+msgid "Choose one of the two export formats."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:6
+msgid "Please check at least one from each similarly coloured group."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:7
+msgid "Dropped Students that have evaluated or have been evaluated are marked with an asterisk (*)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:9;82
+#: /Users/compass/projects/ipeer/src//events/export.ctp:9;17
+#: /Users/compass/projects/ipeer/src//survey_groups/export.ctp:8;24
+msgid "Export"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:14
+#: /Users/compass/projects/ipeer/src//events/export.ctp:14
+#: /Users/compass/projects/ipeer/src//survey_groups/export.ctp:12
+msgid "Export Filename"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:18
+msgid "Export File Type"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:27
+msgid "Include All Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:30
+msgid "Evaluation Information"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:34
+msgid "Include Course Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:38
+msgid "Include Event Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:41
+msgid "Please include at least one of the red fields"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:45
+msgid "Include Evaluation Type"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:48
+msgid "Group and Result"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:52
+msgid "Include Group Names"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:56
+msgid "Include Student Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:61
+msgid "Include Student Id"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:65
+msgid "Please include at least one of the green fields"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:69
+msgid "Include Comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:73
+msgid "Include Grades"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:76
+msgid "Please include at least one of the orange fields"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/export.ctp:80
+msgid "Include Final Marks"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_rubric_evaluation_results.ctp:48
+msgid "Evaluation Results From Your Teammates. (Randomly Ordered)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_rubric_evaluation_results.ctp:51
+msgid "Comments/Grades Not Released Yet."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_rubric_evaluation_results.ctp:53
+msgid "Grades Not Released Yet."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_rubric_evaluation_results.ctp:55
+msgid "Comments Not Released Yet."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:68
+msgid "Randomly Ordered"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/student_view_simple_evaluation_results.ctp:82
+msgid "Not Released."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view.ctp:13
+msgid " Export Evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view.ctp:15
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:322
+msgid "Release All Comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view.ctp:16
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:320
+msgid "Unrelease All Comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view.ctp:17
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:317
+msgid "Release All Grades"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view.ctp:18
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:315
+msgid "Unrelease All Grades"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view.ctp:26
+msgid "Back to Evaluation Event Listing"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view.ctp:29
+msgid "Back to Course Home"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_group_submission_details.ctp:29
+msgid "(not submitted)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_group_submission_details.ctp:33
+msgid " day(s)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_group_submission_details.ctp:36
+msgid "(on time)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_group_submission_details.ctp:47
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:12
+msgid "Student Number"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_group_submission_details.ctp:48
+msgid "Date Submitted"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_group_submission_details.ctp:49
+msgid "Late By"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:20
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:32
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results.ctp:10
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:19
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:33
+msgid "Have not submitted their evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:54
+msgid "Question"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:55
+msgid "Average Grade Per Question"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:69
+msgid "Student Name:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results.ctp:70
+msgid "Total:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:69
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:68
+msgid "Evaluation Results Release Status"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:131
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:105
+msgid "Same Mark as Group Average"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:133
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:107
+msgid "Below Group Average"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:135
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:109
+msgid "Above Group Average"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:142
+msgid "NOTE: "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_mixeval_evaluation_results_detail.ctp:143
+msgid " Late Penalty"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results.ctp:37
+msgid "Student Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results.ctp:68
+msgid "Group Average: "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:57
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:250
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:250
+msgid "Mark Peer Evaluations as Not Reviewed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:59
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:253
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:252
+msgid "Mark Peer Evaluations as Reviewed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:92
+msgid "Evaluatee: "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:99
+msgid " (Number of Evaluator(s): "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:100
+msgid "Final Total: "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_rubric_evaluation_results_detail.ctp:138
+msgid "No submissions have been made."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:74
+msgid "Members Evaluated"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:140
+msgid "Penalty"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:161
+msgid "Final Mark"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:176
+msgid "# of Evaluator(s)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:191
+msgid "Average Received"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:211
+msgid "Grade Release"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:264
+msgid "Comment Sections"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:268
+msgid "Check the \"Released\" checkbox and click \"Save Changes\" to release individual comments , or"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:269
+msgid "Click \"Release All\" or \"Unrelease All\" buttons to release or unrelease all comments."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:334
+msgid "Release All"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_simple_evaluation_results.ctp:335
+msgid "Unrelease All"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_survey_summary.ctp:13;33
+msgid "responses"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_survey_summary.ctp:43
+msgid "Responders"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_survey_summary.ctp:86
+msgid "Result"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//evaluations/view_survey_summary.ctp:91
+msgid "Not Submitted"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/add.ctp:37
+#: /Users/compass/projects/ipeer/src//events/edit.ctp:89
+msgid "Doesn't apply to Mix Evaluation. Required questions are set in the template."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/add.ctp:56
+#: /Users/compass/projects/ipeer/src//events/edit.ctp:108
+msgid "Basic view only shows grades. Detailed view shows both grades and comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/add.ctp:75
+#: /Users/compass/projects/ipeer/src//events/edit.ctp:128
+msgid "Select the number of days in between each email reminder for submitting\n    evaluations. The first email is sent when the event is released."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/add.ctp:81
+#: /Users/compass/projects/ipeer/src//events/edit.ctp:135
+msgid "Select the preferred email template."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/add.ctp:89
+#: /Users/compass/projects/ipeer/src//events/edit.ctp:143
+msgid "Holding \"ctrl\" or \"command\" key to select multiple groups."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/export.ctp:2
+msgid "Information"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/export.ctp:4
+msgid "Groups will either get listed as all groups (with an *) or a semi-colon separated list of names"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/export.ctp:5
+#: /Users/compass/projects/ipeer/src//events/import.ctp:6
+msgid "Evaluation types are shown by their id: 1=simple; 2=rubric; 3=survey; 4=mixed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/export.ctp:6
+#: /Users/compass/projects/ipeer/src//events/import.ctp:8
+msgid "For Student Result Mode: 0=basic (grades only); 1=detailed (grades and comments)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/export.ctp:7
+#: /Users/compass/projects/ipeer/src//events/import.ctp:9
+msgid "For the other 0 or 1 fields: 0=no/off; 1=on/yes"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/import.ctp:4
+msgid "The (column) header row is optional in the import file"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/import.ctp:5
+msgid "To assign groups, either enter * for all groups, or enter them as a <strong>semi-</strong>colon (;) separated list of group <strong>ids</strong>. Group ids are listed below."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/import.ctp:7
+msgid "Event templates are entered by their id. To get it, go to the template's edit page and check the URL for the number."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/import.ctp:32
+msgid "To generate an import file template, go to the export events page."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/import.ctp:37
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:24;41
+#: /Users/compass/projects/ipeer/src//users/import.ctp:27;43
+msgid "Import"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:20
+msgid "Evaluation Format"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:32
+msgid "Allow Self-Evaluation?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:38
+msgid "Require Student Comments?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:42
+msgid "Auto-Release Results?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:48
+msgid "Student Result Mode"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:58
+msgid "Evaluation Release Date"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:62;82
+msgid "FROM:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:68;88
+msgid "TO:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:78
+msgid "Result Release Date"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:98
+msgid "Late Penalty"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:126
+msgid "Groups Assignment"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:137
+msgid "Edit this Event"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//events/view.ctp:138
+msgid "Back to Event Listing"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties/add.ctp:8
+msgid "Create"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties/index.ctp:4
+msgid "Add Faculty"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//faculties/view.ctp:37
+msgid "Admins/Instructors"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/edit.ctp:24
+msgid "Filtered Students"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/edit.ctp:24
+msgid "Students in Group"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/edit.ctp:27
+msgid "Note: Students already in one or more groups are marked with *"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/edit.ctp:32
+msgid "There has been submissions in this group. Changing group members may cause data integrity issue. \nIn the evaluation results of events that have already ended, new members will be marked down as having no submissions, \nwhich means no participation grades."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/edit.ctp:35
+#: /Users/compass/projects/ipeer/src//groups/export.ctp:54
+msgid " Group"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/export.ctp:47
+msgid "Available Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/export.ctp:47
+msgid "Participating Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:4
+msgid "Please make sure to remove the header in CSV file."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:5
+msgid "All fields are mandatory. The system will generate the group numbers."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:6
+msgid "All group names must be unique within the class."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:7
+msgid "The student identifiers that can be used are usernames or student numbers."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:8
+msgid "Please make sure the column matches the username/student number in the students' profile"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:11
+#: /Users/compass/projects/ipeer/src//users/import.ctp:13
+msgid "Formatting:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:13
+msgid "Student Identifier, Group Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:18;19
+msgid "Team A"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:20;21
+msgid "Team B"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import.ctp:35
+msgid "The student identifier used in the CSV file."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:2
+msgid "The group CSV file was processed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:3
+msgid "Click OK to return to the list of groups, or look below\nfor the results of the import."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:9
+msgid "Invalid Entries"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:10
+msgid "There are more or less than 2 columns."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:11
+msgid "Entry"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:18
+msgid "Groups Created"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:26
+msgid "Groups that could not be created."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:34
+msgid "Students Placed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:35;53
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:50
+msgid "Student"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:46
+msgid "Students Not Placed"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:47
+msgid "Possible Reasons:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:49
+msgid "The student identifier does not exist in the system. Please add them first."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:50
+msgid "The student is not enrolled in the course. Please enrol them first."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/import_results.ctp:51
+msgid "The group was unable to be created or does not exist."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/index.ctp:6
+msgid " Import Group(s)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/sync_canvas.ctp:236
+msgid "Export selected groups to Canvas <span class='syncIcon'>&rarr;</span>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/sync_canvas.ctp:240
+msgid "<span class='syncIcon' style='float:left;'>&larr;</span> Import selected groups from Canvas"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/sync_canvas.ctp:245
+msgid "Sync All Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/view.ctp:23
+msgid "Email to "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/view.ctp:43
+msgid " Email To All Members"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/view.ctp:57
+msgid "Edit this Group"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//groups/view.ctp:58
+msgid "Back to Group Listing"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:268
+msgid "Grades"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:297
+msgid "Unrelease Grades"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:299
+msgid "Release Grades"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:303
+msgid "Unrelease Comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//helpers/evaluation.php:305
+msgid "Release Comments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/combined.ctp:40
+#: /Users/compass/projects/ipeer/src//home/index.ctp:31
+msgid "%d unreviewed group evaluations"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/combined.ctp:77
+#: /Users/compass/projects/ipeer/src//home/index.ctp:72
+msgid "Please use \"course\" tab for complete list of courses."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/combined.ctp:81
+#: /Users/compass/projects/ipeer/src//home/index.ctp:76
+msgid "Short Help"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/combined.ctp:86
+#: /Users/compass/projects/ipeer/src//home/index.ctp:81
+msgid "To use iPeer you have to add a course."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/combined.ctp:88
+#: /Users/compass/projects/ipeer/src//home/index.ctp:83
+msgid "Please <i>add a course</i> from the \"Courses\" tab above"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/combined.ctp:91
+#: /Users/compass/projects/ipeer/src//home/index.ctp:86
+msgid "Then <i>register students</i> into that course from that course's home page. This display will be available (once the course is created) by clicking on the course's name from most menus."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/combined.ctp:94
+#: /Users/compass/projects/ipeer/src//home/index.ctp:89
+msgid "Put your students into <i>groups</i> manually, (or, if you have the students complete a survey, iPeer can do it for you, using TeamMaker)."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/combined.ctp:98
+#: /Users/compass/projects/ipeer/src//home/index.ctp:93
+msgid "To create evaluations, check out the <a href=\"http://ipeer.ctlt.ubc.ca/wiki/UserDocV3.1\" target=\"_blank\">User Documentations</a>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/index.ctp:5
+msgid "My Courses"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/index.ctp:23
+msgid "Completion Ratio"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/index.ctp:33
+msgid "%d of %d Students"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/index.ctp:47
+msgid "Inactive Courses"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//home/index.ctp:69
+msgid "You do not have any courses."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:117
+msgid "PHP version"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:121
+msgid "MySQL support"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:125
+msgid "magic_quotes_gpc is off "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:129
+msgid "Guard Plugin"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:130
+msgid "If you cloned iPeer from git, you may need to run git submodule init and git submodule update."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:140
+msgid "Sendmail or Sendmail Wrapper"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:141
+msgid "Required if you want email functions."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:146
+msgid "PHP LDAP Extension."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:147
+msgid "Required if you are planning to use LDAP authentication."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:152
+msgid "PHP DOMDocument."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:153
+msgid "Required if you are planning to use TeamMaker."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:162
+msgid "PHP memory limit at least 64 MB"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:163
+msgid "Some operations, such as export, requires more memory when dealing with large courses."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:170
+msgid "PHP Directive"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:171
+msgid "Recommended"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/index.ctp:172
+msgid "Actual"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/install2.ctp:21
+msgid " is Free Software released under the GNU/GPL License."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/install3.ctp:3
+msgid "Step 3: iPeer Database Configuration"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/install3.ctp:12
+msgid "Data Setup Option"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/install3.ctp:38
+msgid "MySQL Database Configuration Parameters"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/install4.ctp:2
+msgid "Step 4: System Parameters Configuration"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/install5.ctp:9
+msgid "Important!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/install5.ctp:10
+msgid "For security reasons, please set the configuration directory (%s) back to read only."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//install/install5.ctp:13
+msgid "If you opted to install with example data, you can login to the example user accounts with the password 'ipeeripeer'"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//layouts/tutorial_pop_up.ctp:4
+msgid "iPeer V2 with TeamMaker"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals/add.ctp:15
+msgid "Info"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals/add.ctp:26
+#: /Users/compass/projects/ipeer/src//mixevals/view.ctp:10
+msgid "Public lets you share this mixed evaluation with other instructors."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals/add.ctp:29
+#: /Users/compass/projects/ipeer/src//mixevals/view.ctp:18
+msgid "Start marks from zero for all Likert questions."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals/add.ctp:35
+msgid "Adds a reflective questions section for evaluators."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals/add.ctp:50
+#: /Users/compass/projects/ipeer/src//survey_groups/edit.ctp:98
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:60
+msgid "Cancel"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals/view.ctp:25
+msgid "Reflective Questions for the evaluator are included."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//mixevals/view.ctp:51
+msgid "MixEval Preview"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauth_clients/index.ctp:6
+msgid "Add Client"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//oauth_tokens/index.ctp:5
+msgid "Add Token"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//pages/admin.ctp:12
+msgid "Faculties"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//pages/admin.ctp:21
+msgid "Departments"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//pages/admin.ctp:49
+msgid "System Parameters"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//plugins/guard/guard/login.ctp:2
+msgid "iPeer Login"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:22
+msgid "aka LOM, Evaluation Range (Max 10)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:27
+msgid "Number of Criteria"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:30
+msgid "Number of Evaluation Aspects (Max 25)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:38
+msgid "Public lets you share this rubric evaluation with other instructors."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:43
+msgid "Zero Mark"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:46
+msgid "No Marks Given for Level of Mastery of 1"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:55
+msgid "View mode determines the rubric layout that will be visible to the students."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:57
+msgid "\"Criteria\" mode separates the rubric into sections for each criteria. Under each section, all users will be listed for that particular criteria. This mode is useful as it provides easy comparisons between students."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:59
+msgid "\"Student\" mode separates the rubric into sections for each student. Under each section, all criteria will be listed for that particular student. This mode is useful as students can be evaluated one at a time."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:61
+msgid "Show/Hide Criteria mode example"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:62
+msgid "Show/Hide Student mode example"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:66
+msgid "<strong>Criteria Example</strong><br><br>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:73
+msgid "<strong>Student Example</strong><br><br>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:88
+msgid "Preview (Update Format)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//rubrics/edit.ctp:96
+msgid "Rubric Edit"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simple_evaluations/edit.ctp:31
+msgid "Points Per Member"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simple_evaluations/edit.ctp:48
+msgid "Public lets you share this simple evaluation with other instructors."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simple_evaluations/view.ctp:6
+msgid "View Simple Evaluation"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simple_evaluations/view.ctp:8
+msgid "Evaluation Name"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simple_evaluations/view.ctp:26
+msgid "Close"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//simple_evaluations/view.ctp:38
+msgid " Simple Evaluation Preview"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/edit.ctp:13
+msgid "Edit Survey Group Set"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/edit.ctp:24
+msgid "match score"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/edit.ctp:33
+msgid "Show responses for question:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/edit.ctp:61
+msgid "Move to ..."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/edit.ctp:97
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:55
+msgid "Save Groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/export.ctp:4
+msgid "Give the export file a name."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/export.ctp:5
+msgid "Select the survey group set you would like to export."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/export.ctp:6
+msgid "Please select at least one of the export fields."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/export.ctp:18
+msgid "Export Fields"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/index.ctp:5
+msgid "Add Survey Group Set"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/makegroups.ctp:4
+msgid "Please Select a survey event to make groups"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/makegroups.ctp:5
+msgid "Select a survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/makegroups.ctp:10
+msgid " No survey event found for this course!"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/makegroups.ctp:11
+msgid "Please create a survey first, and have your students complete it."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/makegroups.ctp:13
+msgid "Go Back"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:13
+msgid "Click on any user name to view their answers to this survey."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:14
+msgid "To adjust weightings and create a new set of teams, just go "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:14
+msgid "back"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:15
+msgid "To edit these teams, first save them below."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:16
+msgid "Note:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:16
+msgid "Higher 'Match Score' is better."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:26
+msgid "Match Score"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:27
+msgid "Team Members"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//survey_groups/maketmgroups.ctp:51
+msgid "Group Set Name: "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:7
+msgid "(Select Question to Load)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:9
+msgid "Load"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:13
+msgid "Load a master question as your template."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:17
+msgid "Whether this question can be used as a template for new questions."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:22
+msgid "Multiple Choice (Single Answer)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:23
+msgid "Choose Any Of... (Multiple Answers)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:24
+msgid "Single Line Text Input"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:25
+msgid "Long Answer Text Input"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/add_question.ctp:59
+msgid "Save Question"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/edit.ctp:15
+msgid "(No Template)"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/edit.ctp:24
+msgid "Public lets you share this survey template with other instructors."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/edit.ctp:28
+msgid " Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/index.ctp:5
+msgid " Add Survey"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/questionssummary.ctp:35
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/questionssummary.ctp:37
+msgid "Top"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/questionssummary.ctp:39
+msgid "Up"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/questionssummary.ctp:41
+msgid "Down"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/questionssummary.ctp:43
+msgid "Bottom"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/questionssummary.ctp:51
+msgid "Add Question"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/questionssummary.ctp:53
+msgid "Done"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/view.ctp:4
+msgid "Survey Title"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//surveys/view.ctp:16
+msgid "Modified"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sys_parameters/edit.ctp:35
+msgid "Note that if you continue and then save this Sys Parameter, the previous value will be overwritten (even if empty). Would you like to proceed?"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//sys_parameters/index.ctp:4
+msgid "Add Sys Parameter"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:17
+msgid "Change Password"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:19
+msgid "Old Password"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:20
+msgid "New Password"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:21
+msgid "Confirm New Password"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:30
+msgid "Add Client Credential"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:34;49
+msgid "Key"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:35;50
+msgid "Secret"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:39;55
+msgid "&nbsp;Comment: "
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:46
+msgid "Add Token Credential"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/edit_profile.ctp:51
+msgid "Expires"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/go_to_class_list.ctp:5
+msgid "This course is linked with a Canvas course. You may compare the enrollment."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/go_to_class_list.ctp:9
+msgid "Compare"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/import.ctp:5
+msgid "All fields mandatory, except email and password."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/import.ctp:6
+msgid "If email column is missing, students can update their profiles by clicking on their name (near the Logout link)."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/import.ctp:7
+msgid "If password column is missing, system will generate random password for each student."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/import.ctp:8
+msgid "If the user already exists, their password will NOT be changed."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/import.ctp:9
+msgid "If an external authentication module is enabled (e.g. CWL or Shibboleth), password column can be ignored. Students will use external authentication module to login."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/import.ctp:10
+msgid "Please make sure to remove the header from the CSV file."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/import.ctp:15
+msgid "Username,First Name,Last Name,Student#,<i>Email(optional),Password(optional)</i>"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/index.ctp:11
+msgid "Import User"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/merge.ctp:4
+msgid "Search for the primary account on the left by name, username, or student number."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/merge.ctp:5
+msgid "Search for the secondary account on the right by name, username, or student number."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/merge.ctp:6
+msgid "WARNING: The merger of two accounts cannot be undone."
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/merge.ctp:8
+msgid "Merge Accounts"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/merge.ctp:16
+msgid "Merge"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/user_summary.ctp:2
+msgid "User(s) failed on creation:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/user_summary.ctp:6;13
+msgid "User(s) modified successfully:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/user_summary.ctp:6
+msgid "User(s) created successfully:"
+msgstr ""
+
+#: /Users/compass/projects/ipeer/src//users/user_summary.ctp:13
+msgid "User(s) updated successfully:"
+msgstr ""
+

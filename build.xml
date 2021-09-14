@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="iPeer" basedir="." default="build">
+
+    <target name="load-db-config">
+        <loadfile property="dbfile" file="app/config/database.php">
+            <filterchain>
+                <stripphpcomments />
+                <linecontainsregexp>
+                    <regexp pattern="^((?!\?php).)*$" />
+                </linecontainsregexp>
+            </filterchain>
+        </loadfile>
+        <php expression="${dbfile}"/>
+        <php expression="DATABASE_CONFIG::getInstance()->default['driver']" returnProperty="db.driver"/>
+        <php expression="DATABASE_CONFIG::getInstance()->default['host']"   returnProperty="db.host"/>
+        <php expression="DATABASE_CONFIG::getInstance()->default['login']"  returnProperty="db.username"/>
+        <php expression="DATABASE_CONFIG::getInstance()->default['password']" returnProperty="db.password"/>
+        <php expression="DATABASE_CONFIG::getInstance()->default['database']" returnProperty="db.name"/>
+        <if>
+            <!-- we need to override default database to run tests to avoid wiping out development data-->
+            <not><isset property="env.IPEER_DB_NAME"/></not>
+            <then>
+                <property name="db.name" value="ipeer_test" override="true"/>
+            </then>
+        </if>
+    </target>
+
+    <target name="build"
+        depends="prepare,lint,phploc,pdepend,phpmd,phpcs,phpcpd,phpdoc,test,phpcb"/>
+
+    <!-- remove phpdoc dependency for now.  phpdoc 2.9 is not working with php7 -->
+    <target name="build-ci"
+        depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,test-ci,phpcb"/>
+
+    <target name="clean" description="Cleanup build artifacts">
+        <delete dir="${project.basedir}/build/api"/>
+        <delete dir="${project.basedir}/build/code-browser"/>
+        <delete dir="${project.basedir}/build/coverage"/>
+        <delete dir="${project.basedir}/build/logs"/>
+        <delete dir="${project.basedir}/build/pdepend"/>
+        <delete dir="${project.basedir}/dist"/>
+    </target>
+
+    <target name="prepare" depends="clean"
+        description="Prepare for build">
+        <mkdir dir="${project.basedir}/build/api"/>
+        <mkdir dir="${project.basedir}/build/code-browser"/>
+        <mkdir dir="${project.basedir}/build/coverage"/>
+        <mkdir dir="${project.basedir}/build/logs"/>
+        <mkdir dir="${project.basedir}/build/pdepend"/>
+        <!-- let Apache write to cache -->
+        <exec command="chmod -R 777 ${project.basedir}/app/tmp"/>
+    </target>
+
+    <target name="init-test-db" depends="load-db-config">
+        <pdosqlexec url="mysql:host=${db.host};dbname=${db.name}" userid="${db.username}" password="${db.password}">
+            <transaction src="app/config/sql/ipeer_samples_data.sql"/>
+        </pdosqlexec>
+        <!--<exec command="cake/console/cake schema_ci create DbAcl" passthru="true"/>-->
+    </target>
+
+    <target name="lint">
+        <phplint haltonfailure="true" cachefile="${project.basedir}/build/lint.cache">
+            <fileset dir="${project.basedir}/app">
+                <include name="**/*.php" />
+            </fileset>
+        </phplint>
+    </target>
+
+    <target name="phploc" description="Measure project size using PHPLOC">
+        <exec executable="phploc">
+            <arg value="--log-csv" />
+            <arg value="${project.basedir}/build/logs/phploc.csv" />
+            <arg path="${project.basedir}/app" />
+        </exec>
+    </target>
+
+    <target name="pdepend"
+        description="Calculate software metrics using PHP_Depend">
+        <phpdepend>
+            <fileset dir="${project.basedir}/app">
+                <include name="**/*.php" />
+                <exclude name="tests/**" />
+                <exclude name="vendors/**" />
+                <exclude name="plugins/**" />
+                <exclude name="config/**" />
+                <exclude name="webroot/**" />
+            </fileset>
+            <logger type="jdepend-xml" outfile="${project.basedir}/build/logs/jdepend.xml" />
+            <logger type="jdepend-chart" outfile="${project.basedir}/build/pdepend/dependencies.svg" />
+            <logger type="overview-pyramid" outfile="${project.basedir}/build/pdepend/overview-pyramid.svg" />
+        </phpdepend>
+    </target>
+
+    <target name="phpmd"
+        description="Perform project mess detection using PHPMD and print human readable output. Intended for usage on the command line before committing.">
+        <phpmd rulesets="codesize,unusedcode">
+            <fileset dir="${project.basedir}/app">
+                <include name="**/*.php" />
+                <exclude name="tests/**" />
+                <exclude name="vendors/**" />
+                <exclude name="plugins/**" />
+                <exclude name="config/**" />
+                <exclude name="webroot/**" />
+            </fileset>
+        </phpmd>
+    </target>
+
+    <target name="phpmd-ci"
+        description="Perform project mess detection using PHPMD creating a log file for the continuous integration server">
+        <phpmd rulesets="codesize,unusedcode">
+            <fileset dir="${project.basedir}/app">
+                <include name="**/*.php" />
+                <exclude name="tests/**" />
+                <exclude name="vendors/**" />
+                <exclude name="plugins/**" />
+                <exclude name="config/**" />
+                <exclude name="webroot/**" />
+            </fileset>
+            <formatter type="xml" outfile="${project.basedir}/build/logs/pmd.xml"/>
+        </phpmd>
+    </target>
+
+    <target name="phpcs"
+        description="Find coding standard violations using PHP_CodeSniffer and print human readable output. Intended for usage on the command line before committing.">
+        <phpcodesniffer standard="PSR2">
+            <fileset dir="${project.basedir}/app">
+                <include name="**/*.php" />
+                <exclude name="tests/**" />
+                <exclude name="vendors/**" />
+                <exclude name="plugins/**" />
+                <exclude name="config/**" />
+                <exclude name="webroot/**" />
+            </fileset>
+        </phpcodesniffer>
+    </target>
+
+    <target name="phpcs-ci"
+        description="Find coding standard violations using PHP_CodeSniffer creating a log file for the continuous integration server">
+        <phpcodesniffer standard="PSR2">
+            <fileset dir="${project.basedir}/app">
+                <include name="**/*.php" />
+                <exclude name="tests/**" />
+                <exclude name="vendors/**" />
+                <exclude name="plugins/**" />
+                <exclude name="config/**" />
+                <exclude name="webroot/**" />
+            </fileset>
+            <formatter type="checkstyle" outfile="${project.basedir}/build/logs/checkstyle.xml" />
+        </phpcodesniffer>
+    </target>
+
+    <target name="phpcpd" description="Find duplicate code using PHPCPD">
+        <phpcpd>
+            <fileset dir="${project.basedir}/app">
+                <include name="**/*.php" />
+                <exclude name="tests/**" />
+                <exclude name="vendors/**" />
+                <exclude name="plugins/**" />
+                <exclude name="config/**" />
+                <exclude name="webroot/**" />
+            </fileset>
+            <formatter type="pmd" outfile="${project.basedir}/build/logs/pmd-cpd.xml" />
+        </phpcpd>
+    </target>
+
+    <target name="phpdoc"
+        description="Generate API documentation using PHPDocumentor">
+        <phpdoc2 destdir="${project.basedir}/build/api" template="responsive-twig">
+            <fileset dir="${project.basedir}/app">
+                <include name="**/*.php" />
+                <exclude name="tests/**" />
+                <exclude name="vendors/**" />
+                <exclude name="plugins/**" />
+                <exclude name="config/**" />
+                <exclude name="webroot/**" />
+            </fileset>
+        </phpdoc2>
+    </target>
+
+    <target name="post-test" description="clean up after running tests">
+        <chmod file="app/tmp" mode="0777"/>
+    </target>
+
+    <target name="test" description="Run unit tests" depends="init-test-db">
+        <exec command="IPEER_DB_NAME=${db.name} sh cake/console/cake -app app testsuite app group component" passthru="true" returnProperty="result.component"/>
+        <exec command="IPEER_DB_NAME=${db.name} sh cake/console/cake -app app testsuite app group model" passthru="true" returnProperty="result.model"/>
+        <exec command="IPEER_DB_NAME=${db.name} sh cake/console/cake -app app testsuite app group caliper" passthru="true" returnProperty="result.caliper"/>
+        <exec command="IPEER_DB_NAME=${db.name} sh cake/console/cake -app app testsuite app group controller" passthru="true" returnProperty="result.controller"/>
+        <!-- v1_controller test must be last one as it will change the database -->
+        <!--<exec command="sh cake/console/cake testsuite app case controllers/V1Controller" passthru="true"/>-->
+        <phingcall target="post-test"/>
+        <fail message="Component test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.component}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <fail message="Model test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.model}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <fail message="Caliper test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.caliper}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <fail message="Controller test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.controller}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+    </target>
+
+    <target name="test-win" description="Run unit tests" depends="prepare,init-test-db">
+        <exec command="IPEER_DB_NAME=${db.name} cake\console\cake.bat -app app testsuite app group component" passthru="true" returnProperty="result.component"/>
+        <exec command="IPEER_DB_NAME=${db.name} cake\console\cake.bat -app app testsuite app group model" passthru="true" returnProperty="result.model"/>
+        <exec command="IPEER_DB_NAME=${db.name} cake\console\cake.bat -app app testsuite app group caliper" passthru="true" returnProperty="result.caliper"/>
+        <exec command="IPEER_DB_NAME=${db.name} cake\console\cake.bat -app app testsuite app group controller" passthru="true" returnProperty="result.controller"/>
+        <!-- v1_controller test must be last one as it will change the database -->
+        <phingcall target="post-test"/>
+        <fail message="Component test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.component}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <fail message="Model test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.model}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <fail message="Caliper test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.caliper}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <fail message="Controller test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.controller}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+    </target>
+
+    <target name="test-ci" description="Run unit tests for continuous integration" depends="init-test-db">
+        <exec command="IPEER_DB_NAME=${db.name} cake/console/cake -app app testsuite app group component" passthru="true" returnProperty="result.component"/>
+        <exec command="IPEER_DB_NAME=${db.name} cake/console/cake -app app testsuite app group model" passthru="true" returnProperty="result.model"/>
+        <exec command="IPEER_DB_NAME=${db.name} cake/console/cake -app app testsuite app group caliper" passthru="true" returnProperty="result.caliper"/>
+        <exec command="IPEER_DB_NAME=${db.name} cake/console/cake -app app testsuite app group controller" passthru="true" returnProperty="result.controller"/>
+        <!-- <exec command="cake/console/cake testreport app group system" passthru="true"/> -->
+        <!-- v1_controller test must be last one as it will change the database -->
+        <phingcall target="post-test"/>
+        <fail message="Component test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.component}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <fail message="Model test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.model}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <fail message="Caliper test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.caliper}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+        <fail message="Controller test cases failed">
+            <condition>
+                <not>
+                    <equals arg1="${result.controller}" arg2="0"/>
+                </not>
+            </condition>
+        </fail>
+    </target>
+
+    <target name="test-ci-integration" description="Run integration tests for continuous integration(output as xml)" depends="prepare,init-test-db">
+        <exec command="IPEER_DB_NAME=${db.name} cake/console/cake testreport app group system" passthru="true"/>
+        <phingcall target="post-test"/>
+    </target>
+
+    <target name="upgrade" description="Upgrade iPeer">
+        <exec command="cake/console/cake upgrade" passthru="true"/>
+    </target>
+
+    <target name="phpcb"
+        description="Aggregate tool output with PHP_CodeBrowser">
+        <exec executable="phpcb">
+            <arg value="--log" />
+            <arg path="${project.basedir}/build/logs" />
+            <arg value="--source" />
+            <arg path="${project.basedir}/app" />
+            <arg value="--output" />
+            <arg path="${project.basedir}/build/code-browser" />
+        </exec>
+    </target>
+
+    <target name="bump" description="bump a version">
+        <input propertyname="release_option" defaultValue="Minor" validargs="Major,Minor,BugFix" promptChar=":">
+            Please choose a release type
+        </input>
+        <version releasetype="${release_option}" file="version.txt" property="version.number" />
+        <reflexive file="app/config/core.php">
+            <filterchain>
+                <replaceregexp>
+                    <regexp pattern="'IPEER_VERSION', '\d.\d.\d'" replace="'IPEER_VERSION', '${version.number}'"/>
+                </replaceregexp>
+            </filterchain>
+        </reflexive>
+    </target>
+
+    <target name="release" description="Prepare the release" depends="packaging" />
+
+    <target name="packaging" description="Packaging the release">
+        <delete dir="${project.basedir}/dist"/>
+        <mkdir dir="${project.basedir}/dist"/>
+        <loadfile property="version.number" file="version.txt"/>
+        <php function="trim" returnProperty="version.number">
+            <param value="${version.number}" />
+        </php>
+        <echo msg="IPEER_VERSION=${version.number}" file="dist/version_for_jenkins.properties" />
+
+        <tar destfile="dist/${phing.project.name}-${version.number}.tar.gz" compression="gzip">
+            <fileset dir=".">
+                <exclude name="**/.git/" />
+                <exclude name="build/" />
+                <exclude name="dist/" />
+            </fileset>
+        </tar>
+        <filehash file="dist/${phing.project.name}-${version.number}.tar.gz" hashtype="0" />
+        <echo msg="${filehashvalue}" file="dist/${phing.project.name}-${version.number}.tar.gz.md5" />
+
+        <zip destfile="dist/${phing.project.name}-${version.number}.zip">
+            <fileset dir=".">
+                <exclude name="**/.git/" />
+                <exclude name="build/" />
+                <exclude name="dist/" />
+            </fileset>
+        </zip>
+        <filehash file="dist/${phing.project.name}-${version.number}.zip" hashtype="0" />
+        <echo msg="${filehashvalue}" file="dist/${phing.project.name}-${version.number}.zip.md5" />
+
+        <copy file="readme.md" todir="dist/" />
+    </target>
+
+    <target name="extract" description="Extract i18n strings for translation">
+        <delete file="app/locale/default.pot" quiet='true'/>
+        <exec command="cake/console/cake i18n extract -app app -merge yes -output app/locale/ -paths app/controllers,app/models,app/views" passthru="true"/>
+    </target>
+</project>
