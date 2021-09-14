@@ -46,6 +46,8 @@ services:
     command: cake/console/cake worker run
     ports:
       - "9002:9000"
+    depends_on:
+      - app
   web:
     image: nginx:1.19-alpine
     container_name: ipeer_web
