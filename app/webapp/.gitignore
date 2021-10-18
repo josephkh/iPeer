@@ -21,9 +21,7 @@ vendor/
 .data
 .data/
 
+#
 node_modules/
-
-tmp/
-
 .DS_Store
 .env
