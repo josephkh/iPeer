@@ -101,6 +101,10 @@ if (IS_INSTALLED) {
   Router::connect('/:controller/groups/:group_id/users/:username',
     array('action' => 'groupMembers', 'username' => null),
     array('group_id' => '[0-9]+', 'username' => '.+'));
+  // including rest routes
+  if (!file_exists(dirname(__FILE__).'/plugins/rest/config/routes.php')) {
+    include_once $_SERVER['DOCUMENT_ROOT'] . '/app/plugins/rest/config/routes.php';
+  }
 } else {
   // Note, order of routes specified matters. If install didn't come first
   // the /* directive would just redirect every page to the index page

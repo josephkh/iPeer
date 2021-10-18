@@ -123,7 +123,9 @@ class HomeController extends AppController
         $this->set('numDue', $numDue);
         
         if(!User::isInstructor()) {
-            $this->render('studentIndex');
+            // $this->render('studentIndex');
+          $this->layout = 'blank_layout';
+          $this->render('webapp');
         } else {
             $this->render('combined');
         }
